@@ -134,3 +134,7 @@
 
 - [x] Adicionar configuração Firebase Hosting com rewrite da API para Cloud Run e guia DNS oficial.
 
+- [ ] Excluir o projeto WebDev da Manus, seus dados gerenciados, anexos, checkpoints e domínio Manus conforme confirmação da usuária.
+- [ ] Remover cópias locais temporárias do sandbox, preservando o diretório independente e o repositório GitHub.
+- [ ] Verificar e relatar que GitHub, Firebase e Registro.br não foram alterados.
+
