@@ -129,3 +129,8 @@
 - [x] Executar check, 8 testes, build e teste local real com PostgreSQL usando somente configuração portátil.
 - [x] Criar repositório GitHub privado com nome `clinica-lumina-skin-intelligence` e enviar o código validado.
 - [x] Documentar opções de hospedagem externa e passos manuais de provisionamento, domínio, SSL, backup e cron.
+- [x] Orientar publicação independente com Firebase, backend portátil, domínio luminaskinintelligence.com.br e preservação de e-mail no Registro.br.
+- [x] Entregar guia executável sem solicitar ou armazenar credenciais da usuária.
+
+- [x] Adicionar configuração Firebase Hosting com rewrite da API para Cloud Run e guia DNS oficial.
+

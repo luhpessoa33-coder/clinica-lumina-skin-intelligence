@@ -33,6 +33,10 @@ Para infraestrutura local, o arquivo `docker-compose.yml` fornece aplicativo, Po
 | `S3_*` | Bucket para anexos e documentos enviados |
 | `CRON_SECRET` | Proteção do endpoint de avisos |
 
+## Publicação com Firebase e Registro.br
+
+O passo a passo completo está em [`docs/GUIA_PUBLICACAO_FIREBASE_REGISTROBR.md`](docs/GUIA_PUBLICACAO_FIREBASE_REGISTROBR.md). O arquivo `firebase.json` já configura `dist/public` e o encaminhamento de `/api/**` para o Cloud Run; ajuste o `serviceId` e a região se escolher nomes diferentes.
+
 ## Produção
 
 Use um serviço que execute contêiner Node.js, um PostgreSQL gerenciado e um bucket S3 compatível. Configure HTTPS antes do primeiro login. Execute as migrações no processo de entrega, mantenha backup automático do PostgreSQL e política de versionamento/retenção no bucket. Os modelos de integração contínua e avisos estão em `deployment-examples/github-actions`. Para ativá-los, copie os arquivos `.yml.example` para `.github/workflows`, remova a extensão `.example` e cadastre `APP_URL` e `CRON_SECRET` em **Settings → Secrets and variables → Actions**.

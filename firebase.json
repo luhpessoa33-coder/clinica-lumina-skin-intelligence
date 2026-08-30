@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "public": "dist/public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "/api/**",
+        "run": {
+          "serviceId": "clinica-lumina-skin-intelligence",
+          "region": "southamerica-east1"
+        }
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
+  }
+}
