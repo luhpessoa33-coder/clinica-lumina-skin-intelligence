@@ -35,6 +35,6 @@ Para infraestrutura local, o arquivo `docker-compose.yml` fornece aplicativo, Po
 
 ## Produção
 
-Use um serviço que execute contêiner Node.js, um PostgreSQL gerenciado e um bucket S3 compatível. Configure HTTPS antes do primeiro login. Execute as migrações no processo de entrega, mantenha backup automático do PostgreSQL e política de versionamento/retenção no bucket. No GitHub, cadastre `APP_URL` e `CRON_SECRET` em **Settings → Secrets and variables → Actions** para ativar a checagem diária.
+Use um serviço que execute contêiner Node.js, um PostgreSQL gerenciado e um bucket S3 compatível. Configure HTTPS antes do primeiro login. Execute as migrações no processo de entrega, mantenha backup automático do PostgreSQL e política de versionamento/retenção no bucket. Os modelos de integração contínua e avisos estão em `deployment-examples/github-actions`. Para ativá-los, copie os arquivos `.yml.example` para `.github/workflows`, remova a extensão `.example` e cadastre `APP_URL` e `CRON_SECRET` em **Settings → Secrets and variables → Actions**.
 
 Não envie `.env`, backups, prontuários, imagens de pacientes ou dados pessoais ao Git. O painel foi concebido para implantação da clínica; ele não é um prontuário eletrônico.

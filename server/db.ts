@@ -11,7 +11,11 @@ let _pool: Pool | null = null;
 export async function getDb() {
   if (!_db && process.env.DATABASE_URL) {
     try {
-      _pool = new Pool({ connectionString: process.env.DATABASE_URL, ssl: process.env.DATABASE_SSL === "false" ? false : process.env.NODE_ENV === "production" ? { rejectUnauthorized: false } : false });
+      const ssl = process.env.DATABASE_SSL === "true" ? {
+        rejectUnauthorized: process.env.DATABASE_SSL_REJECT_UNAUTHORIZED !== "false",
+        ca: process.env.DATABASE_CA?.replace(/\\n/g, "\n"),
+      } : false;
+      _pool = new Pool({ connectionString: process.env.DATABASE_URL, ssl });
       _db = drizzle(_pool);
     } catch (error) {
       console.warn("[Database] Failed to connect:", error);
