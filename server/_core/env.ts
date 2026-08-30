@@ -1,0 +1,16 @@
+export const ENV = {
+  databaseUrl: process.env.DATABASE_URL ?? "",
+  jwtSecret: process.env.JWT_SECRET ?? "",
+  adminEmail: process.env.ADMIN_EMAIL?.trim().toLowerCase() ?? "",
+  adminPasswordHash: process.env.ADMIN_PASSWORD_HASH ?? "",
+  adminAllowlist: (process.env.ADMIN_ALLOWLIST ?? process.env.ADMIN_EMAIL ?? "").split(",").map(value => value.trim().toLowerCase()).filter(Boolean),
+  isProduction: process.env.NODE_ENV === "production",
+  s3Endpoint: process.env.S3_ENDPOINT ?? "",
+  s3Region: process.env.S3_REGION ?? "auto",
+  s3Bucket: process.env.S3_BUCKET ?? "",
+  s3AccessKeyId: process.env.S3_ACCESS_KEY_ID ?? "",
+  s3SecretAccessKey: process.env.S3_SECRET_ACCESS_KEY ?? "",
+  s3PublicBaseUrl: process.env.S3_PUBLIC_BASE_URL?.replace(/\/$/, "") ?? "",
+  alertWebhookUrl: process.env.ALERT_WEBHOOK_URL ?? "",
+  cronSecret: process.env.CRON_SECRET ?? "",
+};

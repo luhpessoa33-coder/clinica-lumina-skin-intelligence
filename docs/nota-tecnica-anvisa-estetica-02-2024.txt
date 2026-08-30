@@ -1,0 +1,1535 @@
+ NOTA TÉCNICA Nº 2/2024/SEI/GGTES/DIRE3/ANVISA
+
+
+Processo SEI Anvisa nº 25351.921737/2023-11
+Gerência Geral de Tecnologia em Serviços de Saúde
+Agência Nacional de Vigilância Sanitária
+                                                  Esclarecimentos sobre os serviços
+                                                  de    estética  e   atendimento
+                                                  às normas sanitárias aplicáveis a
+                                                  esses serviços.
+
+
+   Terceira Diretoria
+   Daniel Meirelles Fernandes Pereira
+
+
+   Gerente Geral de Tecnologia em Serviços de Saúde – GGTES
+   Márcia Gonçalves de Oliveira
+
+
+   Gerente de Regulamentação e Controle Sanitário em Serviços de Saúde – GRECS/GGTES
+   Janaína Lopes Domingos Barros
+
+
+   Gerente de Vigilância e Monitoramento em Serviços de Saúde – GVIMS/GGTES
+   Magda Machado de Miranda Costa
+
+
+   Coordenadora de Serviços de
+   Interesse para Saúde –
+   CSIPS/GGTES
+   Alice Alves de Sousa
+
+
+   Elaboração
+
+
+   Equipe Técnica Gerência de Regulamentação e Controle Sanitário em Serviços de Saúde - GRECS
+
+
+   André Oliveira Rezende de Souza
+   André Philippe Bacelar Ferreira Gomes
+   Angélica Pires Lucas
+   Denise Lyra dos Santos
+   Eduardo André Viana Alves
+   Fernanda Bezerra de Oliveira
+   Fernanda Cunha Monteiro de Barros
+   Fernanda Horne da Cruz
+   João Henrique Campos Souza
+   Letícia Lopes Quirino Pantoja
+   Marcelo Cavalcante de Oliveira
+
+
+   Equipe Técnica Gerência de Vigilância e Monitoramento em Serviços de Saúde - GVIMS
+
+
+   Ana Clara Ribeiro Bello dos Santos
+   André Anderson Carvalho
+   Andressa Honorato Miranda de Amorim
+   Cleide Felicia de Mesquita Ribeiro
+   Daniela Pina Marques Tomazini
+   Heiko Thereza Santana
+   Humberto Luiz Couto Amaral de Moura
+   Lilian de Souza Barros
+   Luciana Silva da Cruz de Oliveira
+   Magda Machado de Miranda Costa
+   Mara Rúbia Santos Gonçalves
+   Maria Dolores Santos da Purificação Nogueira
+
+
+
+                                    Nota Técnica 2 (2790101)           SEI 25351.921737/2023-11 / pg. 1
+   Equipe Técnica Coordenação de Serviços de Interesse para a Saúde – CSIPS
+
+
+   Ana Maria Alkimin Frantz
+   Rafael Fernandes Barros
+   Tatiana Almeida Jubé
+
+
+   Estagiários GRECS
+
+
+   William Dalton Gonçalves Goelnner
+   Thales Leone Correa
+
+
+
+    AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA – ANVISA
+      É permitida a reprodução parcial ou total deste documento,
+desde que citada a fonte e que não seja para venda ou qualquer
+ﬁm comercial. A responsabilidade pelos direitos autorais de
+textos e imagens desta Nota Técnica é da Agência Nacional de
+Vigilância Sanitária – Anvisa
+
+
+
+
+                               SUMÁRIO
+
+
+
+       Introdução
+       1. Estabelecimentos que oferecem serviços de estética classificados
+       como serviços de interesse para saúde
+       1.1 Profissionais que realizam atividades de estética em serviços de
+       interesse para a saúde
+       1.2 Gestão de equipamentos
+       1.3 Gestão de produtos
+       1.3.1 Medicamentos
+       1.4 Processamento de produtos
+       1.5 Limpeza e desinfecção de superfícies
+       1.6 Gerenciamento de resíduos
+       2. Estabelecimentos que oferecem serviços de estética classificados
+       como serviços de saúde
+       2.1 Normas sanitárias que se aplicam aos estabelecimentos que
+       oferecem serviços de estética classificados como serviços de saúde
+       2.1.1 Boas práticas de funcionamento de serviços de saúde
+       2.1.2 Segurança do paciente
+       2.1.2.1 Estratégias e ações
+       2.1.2.2 Obrigatoriedade de protocolos e POPs
+       2.1.2.3 Prevenção e controle de infecção
+       2.1.2.3.1 Higiene das mãos
+       2.1.2.3.2 Processamento de produtos para saúde
+       2.1.3 Suporte básico à vida e transferência do paciente
+       2.2 Notificação de eventos adversos e surtos infecciosos
+       2.3 Resíduos de serviço de saúde
+       2.4 Regularização dos produtos pela Agência Nacional de Vigilância
+       Sanitária - Anvisa
+       2.5 Regularização dos serviços de saúde na vigilância sanitária local
+       2.6 Gerenciamento de tecnologias
+       2.7 Infraestrutura física
+       2.8 Atuação dos profissionais e capacitação
+
+
+                                 Nota Técnica 2 (2790101)              SEI 25351.921737/2023-11 / pg. 2
+      3. Considerações Finais
+      Referências
+
+
+
+
+           Contextualização
+
+            Esta Nota Técnica nº 01/2024/GGTES/ANVISA
+substitui a Nota Técnica nº 15/2023/GGTES/ANVISA, publicada
+em 3 de julho de 2023, a qual, após questionamentos de
+algumas     entidades   representativas de   esteticistas e
+cosmetólogos, foi submetida à minuciosa análise jurídica da
+Procuradoria Federal junto à Agência Nacional de Vigilância
+Sanitária (Anvisa).
+           A Procuradoria concluiu que a Nota Técnica nº
+15/2023/GGTES/ANVISA, possui total compatibilidade quanto ao
+conteúdo com as normas hierarquicamente superiores. Portanto,
+o presente documento busca, tão somente, aprimorar as
+orientações já prestadas anteriormente.
+
+
+           Introdução
+            O Brasil possui um dos maiores mercados mundiais
+nos setores da beleza e estética e movimenta bilhões de reais
+anualmente. A evolução contínua da área faz surgir a cada dia
+novos procedimentos e tecnologias e, com isso, novos riscos são
+identificados e precisam ser analisados.
+            Embora muitos procedimentos estéticos possam ser
+interpretados erroneamente como isentos de riscos à saúde,
+diante da ampla gama de procedimentos atualmente oferecidos
+no mercado, os usuários desses serviços podem estar sujeitos a
+complicações de saúde. Tais complicações podem ocorrer como
+resultado de hipersensibilidade ou reações inﬂamatórias ao
+produto ou à tecnologia utilizada, além da possibilidade de falha
+humana. A depender do procedimento estético realizado, podem
+ocorrer, também, complicações mais graves como infecções que
+podem levar ao adoecimento, à incapacidade e até mesmo à
+morte. Sendo assim, é imprescindível a adoção de medidas de
+segurança para a prevenção de eventos adversos (EA) infecciosos
+e não infecciosos pelos serviços que realizam esses
+procedimentos, de forma a proteger a saúde da população.
+            A Agência Nacional de Vigilância Sanitária (Anvisa),
+por meio da Gerência-Geral de Tecnologia em Serviços de Saúde
+(GGTES), classiﬁca os estabelecimentos que oferecem serviços
+de estética em dois tipos: serviço de saúde e serviço de
+interesse para a saúde. Nos serviços de saúde, as atividades
+são executadas, obrigatoriamente, por um proﬁssional de saúde
+ou estão sob sua supervisão. Já, nos serviços de interesse para a
+saúde, as atividades realizadas não exigem a presença de um
+profissional de saúde.
+            De acordo com a Resolução do Conselho Nacional de
+Saúde n° 287, de 8 de outubro de 1998, as seguintes categorias
+de nível superior são consideradas profissionais de saúde:
+                   "1. Assistentes Sociais;
+                   2. Biólogos;
+                   3. Biomédicos;
+                   4. Profissionais de Educação Física;
+                   5. Enfermeiros;
+                   6. Farmacêuticos;
+                   7. Fisioterapeutas;
+                   8. Fonoaudiólogos;
+                   9. Médicos;
+
+                       Nota Técnica 2 (2790101)           SEI 25351.921737/2023-11 / pg. 3
+                  10. Médicos Veterinários;
+                  11. Nutricionistas;
+                  12. Odontólogos;
+                  13. Psicólogos; e
+                  14. Terapeutas Ocupacionais."
+           Observa-se, portanto, que os esteticistas não são
+considerados proﬁssionais da saúde. Embora não exista uma
+norma sanitária federal especíﬁca para serviços de estética, estes
+estão submetidos às normas sanitárias transversais (isto é,
+normas aplicadas a diferentes serviços) e às demais legislações,
+quando couber. Os serviços de estética não estão isentos de
+avaliação do risco ou do cumprimento de legislação sanitária.
+           Assim, todos os serviços, sejam eles classiﬁcados
+como serviços de saúde ou serviços de interesse para a saúde,
+devem ser avaliados pela vigilância sanitária local e cumprir as
+normas sanitárias aplicáveis.
+           Nesse cenário, a GGTES/Anvisa constatou um
+aumento da quantidade de denúncias relacionadas à segurança
+sanitária desses serviços, além de dúvidas suscitadas pelos
+proﬁssionais responsáveis pela sua inspeção ou ﬁscalização
+sanitária.
+           Assim, o objetivo desta nota técnica é orientar os
+proﬁssionais da vigilância sanitária, responsáveis pela inspeção
+ou ﬁscalização sanitária dos estabelecimentos que oferecem
+serviços de estética, bem como proﬁssionais da área, a ﬁm de
+promover a segurança, a qualidade e a conformidade dos
+produtos utilizados e dos serviços prestados, em concordância
+com as normas sanitárias vigentes.
+
+
+         1.   Estabelecimentos   que  oferecem
+serviços de estética classiﬁcados como serviços
+de interesse para a saúde
+             Nos estabelecimentos que oferecem serviços de
+estética, classiﬁcados como serviços de interesse para
+saúde, são realizadas atividades em que há prestação de
+assistência ao indivíduo ou à população humana que podem
+alterar o seu estado de saúde, mas que não exigem a
+realização ou supervisão por proﬁssionais de saúde. São
+exemplos de serviços de interesse para a saúde aqueles
+realizados por esteticistas, abrangidos pelas Leis nº 13.352, de
+27 de outubro de 2016 “que altera a Lei nº 12.592, de 18 de
+janeiro 2012, para dispor sobre o contrato de parceria entre os
+proﬁssionais que exercem as atividades de Cabeleireiro, Barbeiro,
+Esteticista, Manicure, Pedicure, Depilador e Maquiador e pessoas
+jurídicas registradas como salão de beleza” e a nº 13.643, de 03
+de abril de 2018, “que regulamenta as proﬁssões de Esteticista,
+que compreende o Esteticista, Cosmetólogo, e de Técnico em
+Estética”.
+            São exemplos de atividades prestadas nos serviços de
+estética classificados como de interesse para saúde, as atividades
+de embelezamento como: corte, penteado, alisamento,
+coloração, descoloração, alongamento, hidratação e nutrição de
+cabelos, barba, embelezamento de mãos e pés, depilações,
+embelezamento dos olhos, maquiagem, estética corporal, capilar
+e facial.
+         Tais   proﬁssionais  não    podem    utilizar
+medicamentos em suas atividades. O uso é restrito aos
+cosméticos, conforme estabelecido pela Lei nº 13.643,
+de 2018:
+                  "Art. 5º Compete ao Técnico em Estética:
+                  I - executar procedimentos estéticos faciais, corporais e
+                  capilares, utilizando como recursos de trabalho produtos
+
+
+                      Nota Técnica 2 (2790101)         SEI 25351.921737/2023-11 / pg. 4
+                  cosméticos, técnicas e equipamentos com registro na
+                  Agência Nacional de Vigilância Sanitária (Anvisa);
+                  [...]
+                  Art. 6º Compete ao Esteticista e Cosmetólogo, além das
+                  atividades descritas no art. 5º desta Lei: [...]"
+            De acordo com a Lei nº 6.360, de 23 de setembro de
+1976, que dispõe sobre a Vigilância Sanitária a que ﬁcam
+sujeitos os Medicamentos, as Drogas, os Insumos Farmacêuticos
+e Correlatos, Cosméticos, Saneantes e Outros Produtos, e dá
+outras providências, cosméticos só podem ter uso externo,
+conforme transcrito a seguir:
+                  "Art. 3º - Para os efeitos desta Lei, além das deﬁnições
+                  estabelecidas nos incisos I, II, III, IV, V e VII do Art. 4º da
+                  Lei nº 5.991, de 17 de dezembro de 1973, são adotadas
+                  as seguintes:
+                  [...]
+                  V    - Cosméticos: produtos para uso externo,
+                  destinados à proteção ou ao embelezamento das
+                  diferentes partes do corpo, tais como pós faciais, talcos,
+                  cremes de beleza, creme para as mãos e similares,
+                  máscaras faciais, loções de beleza, soluções leitosas,
+                  cremosas e adstringentes, loções para as mãos, bases de
+                  maquilagem e óleos cosméticos, ruges, "blushes", batons,
+                  lápis labiais, preparados anti- solares, bronzeadores e
+                  simulatórios, rímeis, sombras, delineadores, tinturas
+                  capilares, agentes clareadores de cabelos, preparados
+                  para ondular e para alisar cabelos, ﬁxadores de cabelos,
+                  laquês, brilhantinas e similares, loções capilares,
+                  depilatórios e epilatórios, preparados para unhas e
+                  outros;" (grifo nosso)
+            A RDC nº 752, de 19 de setembro de 2022, que
+dispõe sobre a deﬁnição, a classiﬁcação, os requisitos técnicos
+para rotulagem e embalagem, os parâmetros para controle
+microbiológico,   bem     como    os   requisitos técnicos    e
+procedimentos para a regularização de produtos de higiene
+pessoal, cosméticos e perfumes, estabelece que:
+                  "XVI - produtos de higiene pessoal, cosméticos e
+                  perfumes: são preparações constituídas por substâncias
+                  naturais ou sintéticas, de uso externo nas diversas
+                  partes do corpo humano, pele, sistema capilar, unhas,
+                  lábios, órgãos genitais externos, dentes e membranas
+                  mucosas da cavidade oral, com o objetivo exclusivo ou
+                  principal de limpá-los, perfumá-los, alterar sua aparência
+                  e ou corrigir odores corporais e ou protegê-los ou mantê-
+                  los em bom estado;" (grifo nosso)
+           A Gerência de Produtos de Higiene, Perfumes,
+Cosméticos e Saneantes, por meio da nota Técnica nº
+33/2023/SEI/GHCOS/DIRE3/ANVISA e considerando a deﬁnição
+legal de cosméticos, ratiﬁca que não é possível a regularização
+de um produto cosmético para uso invasivo/injetável. Essa nota
+técnica soma-se às ações já adotadas pela Agência com objetivo
+de orientar as empresas detentoras de registro para o correto
+enquadramento do produto como cosmético e a adequada
+comunicação das suas formas de uso, na rotulagem e
+embalagem, nos termos dos arts. 3º c/c 5º e 59 da Lei nº 6.360/
+1976, a qual estabelece que produto cosmético é de uso
+exclusivamente externo, a ﬁm de evitar indução de
+proﬁssionais e consumidores à administração indevida de
+produtos cosméticos de forma invasiva no corpo. (grifo nosso).
+         Ademais, os esteticistas só devem operar
+equipamentos cujos fabricantes, em seus manuais,
+permitam o uso para esta categoria profissional.
+           Para veriﬁcar se um serviço de estética classiﬁcado
+como de interesse para a saúde isto é, que não é exigido que os
+procedimentos sejam realizados por proﬁssional de saúde, está
+realizando as ações necessárias para a execução adequada de
+uma atividade, deve-se avaliar suas condições organizacionais e
+seus processos de trabalho.
+
+                          Nota Técnica 2 (2790101)         SEI 25351.921737/2023-11 / pg. 5
+           Nesse contexto, é fundamental que o serviço possua:
+           a) regularização pela vigilância sanitária local;
+            b) contratos que formalizem a relação de prestação
+de serviços terceirizados, caso existam. Importante salientar que
+as atividades e os serviços terceirizados devem estar
+regularizados pela vigilância sanitária competente, quando
+couber.    São    exemplos    de     atividades  frequentemente
+terceirizadas: serviço de controle de pragas, lavanderia, serviço
+de alimentação, limpeza do reservatório de água e recolhimento
+de resíduos;
+           c) normas e procedimentos operacionais padrão
+(POPs) escritos, com a descrição das atividades exercidas, os
+quais devem estar disponíveis para os proﬁssionais do
+estabelecimento e para a vigilância sanitária quando
+requisitados;
+            d) recursos humanos capacitados e dimensionados
+de acordo com a demanda, que cumpram os requisitos de
+higiene e saúde e que façam uso de equipamentos de proteção
+individual adequados às atividades desenvolvidas;
+            e) infraestrutura física adequada, em boas condições
+de higiene e conservação: sistemas de ventilação e iluminação
+adequados; ambientes devem ser limpos e impedir a atração, o
+abrigo, o acesso e a proliferação de vetores e pragas urbanas;
+            f) equipamentos e produtos utilizados regularizados
+pela Anvisa. Os equipamentos devem estar em boas condições
+de operação, devidamente gerenciados (incluindo manutenções
+preventivas e corretivas dos equipamentos) e utilizados de
+acordo com as orientações do fabricante. Os equipamentos
+devem ser utilizados apenas para o ﬁm a que se destinam, por
+pessoal qualiﬁcado, treinado e conforme as instruções do
+fabricante; inclusive deve-se observar o manual do fabricante
+para verificar quais profissionais podem operar o equipamento;
+            g) limpeza, desinfecção e esterilização (*deﬁnidas
+conforme Resolução da Diretoria Colegiada - RDC nº 15, de 15 de
+março      de    2012)    adequadas      de   equipamentos     e
+utensílios/materiais. Utensílios, equipamentos e roupas precisam
+estar limpos, desinfetados ou esterilizados adequadamente a
+depender da atividade oferecida;
+            h) produtos e materiais em quantidade suﬁciente
+para o seu funcionamento, de acordo com a demanda, com a
+atividade realizada e com a legislação vigente;
+            i) a exigência ou não de projeto básico arquitetônico
+em serviços de estética depende da atividade oferecida e da
+classiﬁcação dada pela Instrução Normativa – Anvisa IN nº 66, de
+1º de setembro de 2020, que estabelece a lista de Classiﬁcação
+Nacional de Atividades Econômicas (CNAE) de atividades
+econômicas sujeitas à vigilância sanitária por grau de risco e
+dependente de informação para ﬁns de licenciamento sanitário,
+conforme previsto no parágrafo único do art. 6º da Resolução da
+Diretoria Colegiada - RDC nº 153, de 26 de abril de 2017;
+            j ) o uso de formol para alisar cabelos e das
+câmaras de bronzeamento artiﬁcial está proibido por
+causarem sérios riscos à saúde. Cabe salientar que a
+câmara de bronzeamento artiﬁcial foi objeto da Resolução
+da Diretoria Colegiada - RDC nº 56, de 09 de novembro de 2009,
+que “proíbe em todo território nacional o uso dos equipamentos
+para bronzeamento artiﬁcial com ﬁnalidade estética , baseada
+na emissão da radiação ultravioleta (UV)” (grifo nosso). A norma
+proíbe, além do uso, “a importação, recebimento em doação,
+aluguel e comercialização dessas câmaras.”
+            Para saber se um alisante de cabelo é registrado na
+Anvisa,    basta   acessar: https://consultas.anvisa.gov.br/#/. É
+preciso ter em mãos uma das seguintes informações: número do
+
+                      Nota Técnica 2 (2790101)     SEI 25351.921737/2023-11 / pg. 6
+processo ou número de registro, nome do produto, nome da
+empresa detentora do registro ou CNPJ. Todos os alisantes
+capilares, inclusive os importados, devem ser registrados.
+Alisantes sem registro ou notiﬁcados estão irregulares. A
+Resolução da Diretoria Colegiada - RDC nº 409, de 27 de julho de
+2020, dispõe sobre os requisitos técnicos especíﬁcos para a
+regularização de produtos para alisar ou ondular cabelos. A
+Instrução Normativa IN nº 124, de 24 de março de 2022,
+apresenta uma lista de ativos permitidos em produtos cosméticos
+para alisar ou ondular os cabelos.
+             Faz-se relevante destacar também que a Anvisa tem
+recebido relatos de casos de efeitos adversos ocasionados por
+produtos para trançar/modelar os cabelos. Entre os efeitos
+notiﬁcados estão cegueira temporária (perda temporária da
+visão), forte ardência nos olhos, lacrimejamento intenso, coceira,
+vermelhidão, inchaço ocular e dor de cabeça.
+           A Agência continua investigando os eventos adversos
+notiﬁcados e diversas ações foram realizadas, tais como
+publicação de alertas com orientações sobre o uso desses
+produtos e resoluções com suspensão de produtos irregulares.
+Além disso, a Anvisa mantém uma listagem atualizada das
+pomadas               autorizadas: https://www.gov.br/anvisa/pt-
+br/assuntos/cosmeticos/pomadas/pomadas-autorizadas
+             Isso posto, os proﬁssionais de vigilância sanitária
+devem estar cientes de que os produtos interditados não podem
+ser distribuídos, comercializados, expostos à venda ou utilizados
+em qualquer tipo de estabelecimento. As vigilâncias sanitárias
+locais devem adotar as medidas necessárias para que estes
+produtos não circulem.
+             Além disso, os proﬁssionais que utilizam os produtos
+devem seguir as instruções de uso do fabricante e notiﬁcar
+quaisquer        efeitos     indesejáveis      no       endereço:
+https://pesquisa.anvisa.gov.br/index.php/368782?lang=pt-BR. Já
+os proﬁssionais de saúde ou representantes de empresa devem
+notiﬁcar em campo próprio, mediante cadastro prévio no
+e    n     d    e    r   e    ç    o https://www.gov.br/anvisa/pt-
+br/assuntos/cosmeticos/pomadas. Destacamos que recentemente
+a Anvisa emitiu o Alerta GGMON nº 03/2023, com advertências
+sobre o uso incorreto de cosméticos em procedimentos
+injetáveis, uma vez que, como dito acima, os cosméticos são para
+uso externo. A ação foi adotada após a ocorrência de eventos
+adversos graves associados ao uso desses produtos.
+            Produtos estéticos destinados a procedimentos
+injetáveis não podem ser regularizados como cosméticos, pois
+são aplicados por meio de injeções ou microagulhamento, por
+exemplo, penetrando diretamente na pele ou em camadas
+profundas do corpo. Essa característica aumenta o potencial de
+complicações se os produtos não forem utilizados sob a
+supervisão de proﬁssionais qualiﬁcados e de acordo com a
+regulamentação sanitária vigente.
+             Por isso, os produtos injetáveis são regularizados na
+Anvisa como medicamentos ou produtos para a saúde, nunca
+como       produtos cosméticos. É imprescindível que os
+proﬁssionais de clínicas de estética estejam cientes das
+características distintas desses produtos e implementem
+medidas rigorosas para garantir a segurança dos seus clientes.
+(https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/anvisa-
+alerta-consumidores-e-profissionais-sobre-produtos-esteticos-
+usados-de-forma-injetavel)
+         1.1 Proﬁssionais que realizam atividades
+de estética em serviços de interesse para a saúde
+          A Anvisa não possui competência para ﬁscalizar a
+atuação proﬁssional. Essa competência é dos Conselhos de
+Classe Proﬁssionais. A atribuição da Agência restringe-se à
+
+                      Nota Técnica 2 (2790101)    SEI 25351.921737/2023-11 / pg. 7
+regulação dos aspectos sanitários que envolvem a realização das
+atividades e à veriﬁcação da existência de proﬁssional
+legalmente habilitado no estabelecimento. Por meio do Parecer
+Cons. n. 97/2007/PROCR/Anvisa, citado na Nota Cons. n.
+68/2012/PF-Anvisa/PGF/AGU, a Procuradoria Federal junto à
+Anvisa esclareceu:
+                  "A ﬁscalização sanitária não se confunde com a
+                  ﬁscalização do exercício proﬁssional. [...] A ﬁscalização do
+                  exercício proﬁssional é exercida por órgãos especíﬁcos.
+                  [...] O que cabe à vigilância sanitária é a constatação da
+                  existência de proﬁssional legalmente habilitado no
+                  estabelecimento, e não a deﬁnição de qual proﬁssional
+                  seria o habilitado para assumir tal responsabilidade."
+           Como disposto no Decreto nº 77.052/1976:
+                  "Art. 2º Para cumprimento do disposto neste Decreto as
+                  autoridades sanitárias mencionadas no artigo anterior,
+                  no desempenho da ação ﬁscalizadora, observarão os
+                  seguintes requisitos e condições:
+                  I - Capacidade legal do agente, através do exame dos
+                  documentos de habilitação inerentes ao seu âmbito
+                  profissional ou ocupacional,
+                  [...]
+                  Art. 4º Para o cabal desempenho da ação ﬁscalizadora
+                  estabelecida por este Decreto as autoridades sanitárias
+                  competentes deverão abster-se de outras exigências que
+                  impliquem na repetição, ainda que para efeito de
+                  controle, de procedimentos não especiﬁcados neste
+                  Regulamento ou que se constituam em atribuições
+                  privativas de outros órgãos públicos."
+           Como ainda não há conselho de classe proﬁssional
+especíﬁco para esteticistas e técnicos de estética, esses
+proﬁssionais devem respeitar o que consta da Lei Federal nº
+13.643/2018:
+                  "Art.5º Compete ao Técnico em Estética:
+                  I - executar procedimentos estéticos faciais, corporais e
+                  capilares, utilizando como recursos de trabalho produtos
+                  cosméticos, técnicas e equipamentos com registro na
+                  Agência
+                  Nacional de Vigilância Sanitária (Anvisa);
+                  II - solicitar, quando julgar necessário, parecer de outro
+                  profissional que complemente a avaliação estética;
+                  III - observar a prescrição médica ou ﬁsioterápica
+                  apresentada pelo cliente, ou solicitar, após exame da
+                  situação, avaliação médica ou fisioterápica.
+                  Art. 6º Compete ao Esteticista e Cosmetólogo, além das
+                  atividades descritas no art. 5º desta Lei:
+                  I - a responsabilidade técnica pelos centros de estética
+                  que executam e aplicam recursos estéticos, observado o
+                  disposto nesta Lei;
+                  II - a direção, a coordenação, a supervisão e o ensino de
+                  disciplinas relativas a cursos que compreendam estudos
+                  com concentração em Estética ou Cosmetologia, desde
+                  que observadas as leis e as normas
+                  regulamentadoras da atividade docente;
+                  III - a auditoria, a consultoria e a assessoria sobre
+                  cosméticos e equipamentos especíﬁcos de estética com
+                  registro na Anvisa;
+                  IV - a elaboração de informes, pareceres técnico-
+                  cientíﬁcos, estudos, trabalhos e pesquisas mercadológicas
+                  ou experimentais relativos à Estética e à Cosmetologia,
+                  em sua área de atuação;
+                  V - a elaboração do programa de atendimento, com base
+                  no quadro do cliente, estabelecendo as técnicas a serem
+                  empregadas e a quantidade de aplicações necessárias;
+                  VI - observar a prescrição médica apresentada pelo
+                  cliente, ou solicitar, após avaliação da situação, prévia
+                  prescrição médica ou fisioterápica."
+           Com base nos artigos supracitados, extraem-se duas
+
+                          Nota Técnica 2 (2790101)       SEI 25351.921737/2023-11 / pg. 8
+conclusões:
+          1) Os esteticistas e técnicos em estética só
+podem utilizar os cosméticos como insumos de trabalho.
+A administração/aplicação de medicamentos por esses
+profissionais é vedada pela legislação vigente;
+            2) O uso de equipamentos por estes proﬁssionais
+depende da existência de equipamentos regularizados que
+possam ser operados por eles. Portanto, cabe aos fabricantes dos
+equipamentos indicarem em seus manuais, ao submetê-los à
+regularização nesta Agência, quais são os proﬁssionais
+habilitados a utilizá-los.
+            Reaﬁrma-se a necessidade de garantir que não
+sejam     utilizados medicamentos em serviços de estética
+classiﬁcados como serviços de interesse para a saúde,
+principalmente quando se tratar de produtos injetáveis.
+            Os serviços devem, ainda, possuir quadro de pessoal
+qualiﬁcado, com conhecimento, capacitação ou treinamento, de
+acordo com as atividades realizadas. Os registros de formação ou
+qualiﬁcação dos proﬁssionais devem estar disponíveis para os
+ﬁscais da vigilância sanitária e ser compatíveis com as funções
+desempenhadas. A formação dos proﬁssionais deverá ser
+comprovada por meio de certiﬁcado de treinamento, curso
+técnico, graduação, especialização, entre outros. Dependendo da
+atividade exercida, pode ser necessário um proﬁssional
+legalmente habilitado ou um responsável técnico.
+            O número de proﬁssionais deve obedecer à legislação
+sanitária, quando for exigido um número mínimo de
+proﬁssionais. Os equipamentos de proteção individual (EPI)
+deverão ser disponibilizados pelo estabelecimento aos
+funcionários, de acordo com as funções exercidas e em número
+suﬁciente, de forma que sejam garantidos o imediato
+fornecimento ou a reposição. A paramentação referida é de uso
+exclusivo no ambiente de trabalho.
+             Trabalhadores que podem estar expostos ao contato
+com sangue e outros ﬂuídos corporais (manicure, tatuador,
+depilador) devem ser orientados sobre imunização contra tétano,
+difteria, hepatite B e outros agentes biológicos.
+              1.2 Gestão de equipamentos
+          Os estabelecimentos deverão possuir todos os
+equipamentos necessários à realização das atividades propostas,
+mantendo-os higienizados, em condições ergonômicas, e em
+funcionamento adequado.
+             Os     equipamentos      devem    ser    utilizados
+exclusivamente para os ﬁns a que se destinam e, asseguradas a
+manutenção preventiva e a corretiva. A manutenção preventiva e
+corretiva dos equipamentos deve ser comprovada por notas
+ﬁscais e laudos técnicos, por exemplo. Em alguns casos, também
+podem ser colocadas etiquetas nos equipamentos, nas quais
+deve constar, inclusive, a data da próxima manutenção. Essa
+comprovação precisa estar legível para permitir avaliação pelo
+profissional da vigilância sanitária.
+            A utilização dos equipamentos deve obedecer à
+legislação vigente e às instruções e restrições de uso do
+fabricante. Devem ser disponibilizados, para consulta, manuais
+de operação do equipamento em português.
+             No caso de equipamentos sujeitos à vigilância
+sanitária, a regularização deve ser veriﬁcada no portal da Anvisa,
+no endereço eletrônico https://consultas.anvisa.gov.br/#/saude/.
+Esses equipamentos devem ter uma etiqueta indelével, que
+contenha as seguintes informações: identiﬁcação do fabricante
+(razão social ou marca), identiﬁcação do produto (nome e
+modelo comercial), número de série do equipamento e número
+de regularização do produto na Anvisa.
+
+                      Nota Técnica 2 (2790101)    SEI 25351.921737/2023-11 / pg. 9
+           1.3 Gestão de produtos
+           Os saneantes, produtos para saúde e cosméticos
+utilizados devem estar regularizados pela Anvisa. Esta
+informação deve estar presente no rótulo ou na etiqueta do
+produto.
+            Os serviços que utilizam produtos que podem entrar
+em contato com sangue, secreções ou que representem riscos de
+corte, invasão de pele ou mucosas durante o procedimento
+deverão utilizar produtos descartáveis ou esterilizados após
+cada uso.
+            O estabelecimento deve possuir refrigerador para
+armazenamento de produtos que necessitam ser mantidos sob
+refrigeração, com termômetro para registro diário de
+temperatura. Os produtos não podem ser armazenados em
+refrigerador destinado à guarda de alimentos. Destacamos a
+necessidade de o serviço identiﬁcar o prazo de validade
+do produto após aberto.
+           1.3.1 Medicamentos
+             Conforme citado anteriormente, os medicamentos
+não podem ser utilizados nos procedimentos estéticos oferecidos
+pelos serviços de interesse para a saúde. Para saber se um
+produto é registrado como medicamento na Anvisa, basta
+consultar                                                     o
+link: https://consultas.anvisa.gov.br/#/medicamentos/
+           1.4 Processamento de produtos
+            A área destinada ao processamento de produtos deve
+ser exclusiva para essa atividade e dispor de pia com bancada e
+áreas para limpeza, preparo, desinfecção e esterilização de
+artigos.
+           Os produtos químicos, saneantes e domissanitários,
+bem como os equipamentos utilizados no processamento dos
+produtos, devem estar regularizados pela Anvisa. As empresas
+processadoras (terceirização da atividade de processamentos dos
+produtos), por sua vez, devem ser licenciadas pela vigilância
+sanitária.
+           1.5 Limpeza e desinfecção de superfícies
+            A limpeza, desinfecção e conservação das superfícies
+ﬁxas e dos equipamentos das áreas dos estabelecimentos de
+estética classiﬁcados como de interesse para a saúde têm a
+ﬁnalidade de preparar o ambiente para suas atividades e manter
+a ordem, além de evitar infecções. Falhas nos processos de
+limpeza e desinfecção de superfícies podem ter como
+consequência a disseminação e transferência de microrganismos
+nos ambientes, colocando em risco a segurança do usuário e dos
+profissionais que atuam nesses estabelecimentos.
+            As superfícies em serviços de saúde compreendem:
+mobiliários, pisos, paredes, divisórias, portas e maçanetas, tetos,
+janelas, equipamentos, bancadas, pias, macas, divãs, suporte
+para soro, balança, computadores, instalações sanitárias, grades
+de aparelho de condicionador de ar, ventilador, exaustor,
+luminárias, bebedouro, aparelho telefônico, computadores e
+outros.
+           Para que a desinfecção atinja seus objetivos, torna-se
+imprescindível a utilização das técnicas de limpeza. Para a
+limpeza de pisos, devem ser seguidas as técnicas de varredura
+úmida, ensaboadura, enxágue e secagem. Em locais onde há
+presença de matéria orgânica, torna-se necessária a utilização de
+desinfetantes.
+             A frequência de limpeza das superfícies pode ser
+estabelecida para cada serviço, de acordo com o protocolo da
+instituição. Todos os produtos saneantes utilizados devem estar
+
+                      Nota Técnica 2 (2790101)    SEI 25351.921737/2023-11 / pg. 10
+devidamente registrados ou notificados na Anvisa.
+           Ainda, a desinsetização periódica deve ser realizada
+conforme a necessidade de cada instituição.
+           1.6 Gerenciamento de resíduos
+            Os estabelecimentos que oferecem serviços de
+estética classiﬁcados como de interesse para a saúde podem
+gerar resíduos similares àqueles gerados nos serviços de saúde e,
+nesse caso, devem ser observadas as disposições da Resolução
+da Diretoria Colegiada - RDC nº 222, de 28 de março de 2018,
+“que regulamenta as boas práticas de gerenciamento de resíduos
+em serviços de saúde e dá outras providências”. A resolução traz
+a classiﬁcação dos diferentes resíduos gerados por um serviço,
+bem como todas as etapas do gerenciamento (da segregação à
+disposição ﬁnal). Devem ser apresentados o Plano de
+Gerenciamento de Resíduos de Serviços de Saúde (PGRSS) e as
+cópias do contrato de prestação de serviços e da licença
+ambiental das empresas prestadoras de serviços para a
+destinação dos resíduos de serviços de saúde (RSS).
+
+
+         2.  Estabelecimentos    que  oferecem
+serviços de estética classiﬁcados como serviços
+de saúde
+           Entende-se por serviço de saúde a atividade em que
+há prestação de assistência ao indivíduo ou à população humana
+que possa alterar o seu estado de saúde, com vistas à prevenção
+e ao diagnóstico de doenças, ao tratamento, à recuperação, à
+estética ou à reabilitação, realizada obrigatoriamente por
+profissional de saúde ou sob sua supervisão.
+            ATENÇÃO: A ausência de regulamento federal
+especíﬁco para estabelecimentos que oferecem serviços de
+estética classiﬁcados como serviços de saúde não os isenta da
+obrigatoriedade de cumprir as normas sanitárias aplicáveis a
+todos os serviços de saúde.
+         2.1 Normas sanitárias que se aplicam
+aos estabelecimentos que oferecem serviços de
+estética classificados como serviços de saúde
+            É importante observar que existem normas sanitárias
+direcionadas para serviços de saúde ou unidades de serviços
+especíﬁcos, como é o caso da Resolução da Diretoria Colegiada –
+RDC nº 07, de 24 de fevereiro de 2010, que é especíﬁca para
+Unidade de Terapia Intensiva (UTI). No entanto, outras normas
+são direcionadas para os serviços de saúde de forma geral, por
+exemplo, a Resolução da Diretoria Colegiada - RDC nº 63, de 25
+de novembro de 2011, que “dispõe sobre os Requisitos de Boas
+Práticas de Funcionamento para os Serviços de Saúde”, e, de
+acordo com o seu art. 3º, “ aplica-se a todos os serviços de saúde
+no país, sejam eles públicos, privados, ﬁlantrópicos, civis ou
+militares, incluindo aqueles que exercem ações de ensino e
+pesquisa”.
+             Além da Resolução da Diretoria Colegiada - RDC nº
+63/2011, as seguintes normas sanitárias e outras normativas
+também se aplicam a serviços de saúde de forma geral, e,
+portanto, também aos estabelecimentos que oferecem serviços
+de estética:
+             · Resolução da Diretoria Colegiada - RDC nº 50, de 21
+de fevereiro de 2002, que “dispõe sobre o Regulamento Técnico
+para planejamento, programação, elaboração e avaliação de
+projetos físicos de estabelecimentos assistenciais de saúde”.
+          · Resolução da Diretoria Colegiada - RDC nº 36, de 25
+de julho de 2013, que “institui ações para a segurança do
+paciente em serviços de saúde e dá outras providências”, nos
+
+                     Nota Técnica 2 (2790101)    SEI 25351.921737/2023-11 / pg. 11
+casos aplicáveis.
+           · Resolução da Diretoria Colegiada - RDC nº 156, de
+11 de agosto de 2006, que “dispõe sobre o registro, rotulagem e
+reprocessamento    de   produtos    médicos,    e    dá   outras
+providências”.
+           · Resolução - RE nº 2.605, de 11 de agosto de 2006,
+que “estabelece a lista de produtos médicos enquadrados como
+de uso único proibidos de ser reprocessados.
+           · Resolução - RE nº 2.606, de 11 de agosto de 2006,
+que “dispõe sobre as diretrizes para elaboração, validação e
+implantação de protocolos de reprocessamento de produtos
+médicos e dá outras providências”.
+           · Resolução da Diretoria Colegiada - RDC nº 15, de 15
+de março de 2012, que “dispõe sobre requisitos de boas práticas
+para o processamento de produtos para a saúde e dá outras
+providências”, quando aplicável.
+           · Resolução da Diretoria Colegiada - RDC nº 222, de
+28 de março de 2018, que “regulamenta as Boas Práticas de
+Gerenciamento dos Resíduos de Serviços de Saúde e dá outras
+providências”.
+            · Resolução da Diretoria Colegiada - RDC nº 42, de 25
+de outubro de 2010, que “dispõe sobre a obrigatoriedade de
+disponibilização de preparação alcóolica para fricção antisséptica
+das mãos, pelos serviços de saúde do País, e dá outras
+providências”.
+           · Resolução da Diretoria Colegiada - RDC nº 509, de
+27 de maio de 2021, que “dispõe sobre o gerenciamento de
+tecnologias em saúde em estabelecimento de saúde”.
+           · Portaria nº 2.095, de 24 de setembro de 2013, do
+Ministério da Saúde, que “aprova os Protocolos Básicos de
+Segurança do Paciente”, com destaque para os Protocolos de
+Prevenção de Quedas; de Identiﬁcação do Paciente e de
+Segurança na Prescrição; e de Uso e Administração de
+Medicamentos.
+            · Portaria nº 1.377, de 9 de julho de 2013, “que
+aprova os Protocolos de Segurança do Paciente”, com destaque
+para o Protocolo de Prática de Higiene das mãos.
+          · Portaria nº 529, de 1º de abril de 2013, “que institui
+o Programa Nacional de Segurança do Paciente (PNSP)”.
+            · Resolução da Diretoria Colegiada - RDC nº 6, de 30
+de janeiro de 2012, “que dispõe sobre as Boas Práticas de
+Funcionamento para as Unidades de Processamento de Roupas
+de Serviços de Saúde e dá outras providências”.
+            · Lei nº 6.360, de 23 de setembro de 1976, que
+“dispõe sobre a Vigilância Sanitária a que ﬁcam sujeitos os
+Medicamentos, as Drogas, os Insumos Farmacêuticos e
+Correlatos, Cosméticos, Saneantes e Outros Produtos, e dá outras
+providências”.
+           · Lei nº 6.437, de 20 de agosto de 1977, que
+conﬁgura infrações à legislação sanitária federal, estabelece as
+sanções respectivas, e dá outras providências.
+           Os dispositivos dessas normas, quando aplicáveis,
+devem ser obedecidos pelos estabelecimentos que oferecem
+serviços de estética classiﬁcados como serviços de saúde. Para
+ﬁns de esclarecimento a esses serviços, destacam-se alguns
+aspectos específicos retirados dessas normas:
+         2.1.1 Boas práticas de funcionamento de
+serviços de saúde
+           A Resolução da Diretoria Colegiada – RDC nº 63/2011
+estabelece que todo serviço de saúde deve desenvolver ações
+
+                     Nota Técnica 2 (2790101)    SEI 25351.921737/2023-11 / pg. 12
+para estabelecer uma política de qualidade envolvendo estrutura,
+processo e resultado na sua gestão dos serviços. As Boas Práticas
+de Funcionamento asseguram que os serviços sejam ofertados
+com padrões de qualidade adequados para reduzir os riscos
+inerentes à prestação de serviços de saúde.
+            De acordo com o art. 7º da RDC nº 63/2011, as Boas
+Práticas de Funcionamento preconizam que:
+                  "I - o serviço de saúde deve ser capaz de ofertar serviços
+                  dentro dos padrões de qualidade exigidos, atendendo aos
+                  requisitos das legislações e regulamentos vigentes.
+                  II - o serviço de saúde deve fornecer todos os recursos
+                  necessários, incluindo:
+                  a) quadro de pessoal qualiﬁcado, devidamente treinado e
+                  identificado;
+                  b) ambientes identificados;
+                  c) equipamentos, materiais e suporte logístico; e
+                  d) procedimentos e instruções aprovados e vigentes.
+                  III -as reclamações sobre os serviços oferecidos devem ser
+                  examinadas, registradas e as causas dos desvios da
+                  qualidade investigadas e documentadas, devendo ser
+                  tomadas medidas com relação aos serviços com desvio da
+                  qualidade e adotadas as providências no sentido de
+                  prevenir reincidências."
+
+           2.1.2 Segurança do paciente
+           2.1.2.1 Estratégia e ações
+          O art. 8º da RDC nº 63/2011 determina que o “serviço
+de saúde deve estabelecer estratégias e ações voltadas para
+Segurança do Paciente”, tais como:
+                  "I. Mecanismos de identificação do paciente;
+                  II. Orientações para a higienização das mãos;
+                  III. Ações de prevenção e controle de eventos adversos
+                  relacionada à assistência à saúde;
+                  IV. Mecanismos para garantir segurança cirúrgica;
+                  V.  Orientações   para   administração   segura    de
+                  medicamentos, sangue e hemocomponentes; VI.
+                  Mecanismos para prevenção de quedas dos pacientes;
+                  VII. Mecanismos para a prevenção de úlceras por pressão;
+                  VIII. Orientações para estimular a participação do
+                  paciente na assistência prestada."
+           De forma complementar,               a   RDC    nº     36/2013
+determina que o serviço de saúde deve:
+           · Instituir o Núcleo de Segurança do Paciente (NSP) e
+garantir condições para o seu pleno funcionamento e
+desempenho das competências deﬁnidas na norma. Não estão
+abrangidos por essa norma os consultórios individualizados.
+            · Elaborar um Plano de Segurança do Paciente (PSP)
+em Serviços de Saúde, que deve estabelecer estratégias e ações
+de gestão dos riscos a que o paciente é submetido nos serviços
+de saúde, considerando as atividades desenvolvidas pelos
+profissionais.
+            · Monitorar os incidentes e Eventos Adversos (EA),
+que são incidentes que causaram danos aos pacientes:
+infecciosos e não infecciosos ocorridos dentro do serviço.
+           · Notiﬁcar os EA ocorridos dentro do serviço, por meio
+das ferramentas eletrônicas disponibilizadas pela Anvisa.
+           2.1.2.2 Obrigatoriedade de protocolos e
+POP
+            A RDC nº 63/2011 determina que o serviço de saúde
+deve dispor de normas, procedimentos e rotinas técnicas escritas
+e atualizadas sobre todos os seus processos de trabalho, em local
+de fácil acesso a toda a equipe.
+
+
+                     Nota Técnica 2 (2790101)          SEI 25351.921737/2023-11 / pg. 13
+            Além disso, dada a sua importância, a elaboração e o
+apoio à implementação de protocolos, guias e manuais de
+segurança do paciente estão previstos na Portaria n° 529, de 1º
+de abril de 2013, como uma das estratégias do Programa
+Nacional do Paciente (PNSP), de forma a proporcionar uma
+assistência à saúde mais segura.
+           Dessa forma, conforme estabelecido na RDC nº
+63/2011 e RDC nº 36/2013, é necessário que os serviços de
+saúde do país implementem os Protocolos de Segurança do
+Paciente, adequando-os às atividades realizadas, e realizem o
+monitoramento dos seus indicadores.
+            Os protocolos básicos de segurança do paciente,
+aplicáveis aos estabelecimentos que oferecem serviços de
+estética classiﬁcados como serviços de saúde são: Protocolo para
+a Prática de higiene das mãos; Protocolo para Cirurgia Segura;
+Protocolo de Prevenção de Quedas; Protocolo de Identiﬁcação do
+Paciente; e Protocolo de Segurança na Prescrição, Uso e
+Administração de Medicamentos, conforme Portaria nº 1.377, de
+24 de setembro de 2013, e Portaria nº 2.095, de 24 de setembro
+de     2013.    Os    documentos     estão    disponíveis   em:
+https://www.gov.br/anvisa/ptbr/centraisdeconteudo/publicacoes/servicosdesaude/publicacoes
+           2.1.2.3 Prevenção e controle de infecção
+           2.1.2.3.1 Higiene das mãos
+           De acordo com a RDC nº 63/2011:
+                  "Art. 8º O serviço de saúde deve estabelecer estratégias e
+                  ações voltadas para Segurança do Paciente, tais
+                  como:[...]
+                  II. Orientações para a higienização das mãos;
+                  [...]
+                  Art. 59. O serviço de saúde deve disponibilizar os
+                  insumos, produtos e equipamentos necessários para as
+                  práticas de higienização de mãos dos trabalhadores,
+                  pacientes, acompanhantes e visitantes."
+            Por sua vez, a RDC nº 42, de 25 de outubro de 2010,
+a qual dispõe sobre a obrigatoriedade de disponibilização de
+preparação alcoólica para fricção antisséptica das mãos, pelos
+serviços de saúde do país, e dá outras providências estabelece:
+                  "CAPÍTULO II - DOS REQUISITOS MÍNIMOS
+                  Art. 5º É obrigatória a disponibilização de preparação
+                  alcoólica para fricção antisséptica das mãos:
+                  I - nos pontos de assistência e tratamento de todos os
+                  serviços de saúde do país;
+                  II - nas salas de triagem, de pronto atendimento,
+                  unidades de urgência e emergência, ambulatórios,
+                  unidades     de    internação,     unidades     de   terapia
+                  intensiva, clínicas e consultórios de serviços de saúde;
+                  III - nos serviços de atendimento móvel; e
+                  IV - nos locais em que são realizados quaisquer
+                  procedimentos invasivos."
+            Destaca-se que a segurança do paciente está
+diretamente relacionada aos cuidados da equipe. Por isso é
+essencial a correta higiene das mãos dos proﬁssionais para a
+realização de procedimentos seguros.
+        2.1.2.3.2         Processamento                de      produtos
+para saúde
+           O processamento de produtos para saúde é o
+conjunto de ações relacionadas a pré-limpeza, recepção, limpeza,
+secagem, avaliação da integridade e da funcionalidade, preparo,
+desinfecção ou esterilização, armazenamento e distribuição para
+as unidades consumidoras.
+         Alguns produtos para a saúde podem ser utilizados
+mais de uma vez, desde que processados, em condições de
+
+                      Nota Técnica 2 (2790101)          SEI 25351.921737/2023-11 / pg. 14
+segurança. Esta prática lhes confere maior vida útil e uso
+enquanto apresentarem eficácia e funcionalidade.
+            Há normas que regulamentam o uso múltiplo.
+Produtos para saúde passíveis de processamento são aqueles que
+permitem repetidos processos de limpeza, desinfecção ou
+esterilização, e podem ser reutilizados, desde que obedeçam à
+normatização vigente.
+           Importante notar que o processamento não deve ser
+repetido indeﬁnidamente, pois há um momento em que a
+qualidade do produto já não corresponde à necessária para seu
+uso seguro. As informações sobre as condições para
+processamento e o número de vezes que um produto pode ser
+reprocessado podem ser encontradas no Manual de instruções de
+cada produto classificado como de uso múltiplo.
+             A RDC nº 156, de 11 de agosto de 2006, dispõe sobre
+o registro, rotulagem e reprocessamento de produtos médicos, e
+dá outras providências e estabelece:
+                  "Art.9° A segurança na utilização dos produtos
+                  reprocessados é de responsabilidade dos serviços de
+                  saúde.
+                  Art.10 As empresas e os serviços de saúde que realizam o
+                  reprocessamento devem adotar protocolos que atendam
+                  às diretrizes indicadas em Resolução Especíﬁca
+                  RE/ANVISA.
+                  § 1º Os serviços de saúde e as empresas reprocessadoras,
+                  que optarem pela terceirização, devem ﬁrmar contratos
+                  especíﬁcos, estabelecendo as responsabilidades das
+                  partes, em relação ao atendimento das especiﬁcações
+                  relativas a cada etapa do reprocessamento.
+                  § 2º Os serviços de saúde e as empresas reprocessadoras
+                  que terceirizam o reprocessamento de produtos médicos
+                  devem auditar a empresa contratada.
+                  Art.11 É proibida    a   comercialização   de   produtos
+                  reprocessados.
+                  Art. 12 As empresas reprocessadoras devem estar
+                  licenciadas pela autoridade sanitária competente,
+                  segundo legislação vigente.
+                  Art.13 Os serviços de saúde estão proibidos de realizar
+                  atividades comerciais de reprocessamento para outras
+                  instituições."
+           E, de acordo com o art. 57 da RDC nº 63/2011, “o
+serviço de saúde deve garantir a qualidade dos processos de
+desinfecção e esterilização de equipamentos e materiais.”
+         2.1.3   Suporte              básico         à       vida      e
+transferência do paciente
+           A RDC nº 63/2011 determina que:
+                  "Art. 19. O serviço de saúde deve possuir mecanismos
+                  que garantam a continuidade da atenção ao paciente
+                  quando houver necessidade de remoção ou para
+                  realização de exames que não existam no próprio serviço.
+                  Parágrafo único. Todo paciente removido deve ser
+                  acompanhado por relatório completo, legível, com
+                  identiﬁcação e assinatura do proﬁssional assistente, que
+                  deve passar a integrar o prontuário no destino,
+                  permanecendo cópia no prontuário de origem.
+                  [...]
+                  Art. 58. O serviço de saúde deve garantir que todos os
+                  usuários recebam suporte imediato a vida quando
+                  necessário."
+
+         2.2 Notiﬁcação de eventos adversos e
+surtos infecciosos
+            A notiﬁcação de incidentes relacionados à assistência
+à saúde, incluindo EA (incidentes que causaram danos ao
+paciente), pelo NSP ao Sistema Nacional de Vigilância Sanitária
+(SNVS) tem o intuito de promover a cultura de segurança e
+
+                      Nota Técnica 2 (2790101)       SEI 25351.921737/2023-11 / pg. 15
+melhoria contínua de seus processos, por meio dos dados
+coletados. A notiﬁcação é obrigatória, de acordo com a RDC nº
+36/2013, e a identiﬁcação do serviço de saúde é conﬁdencial,
+obedecidos os dispositivos legais. Os dados analisados pela
+Anvisa são divulgados de forma agregada, logo, não é possível
+identificar a fonte geradora da informação.
+           As notiﬁcações de EA são realizadas utilizando-se o
+módulo de notiﬁcação de incidentes relacionados à assistência à
+saúde do Notivisa (módulo Assistência à Saúde). O acesso a esse
+módulo              está              disponível           em:
+https://www8.anvisa.gov.br/notivisa/frmLogin.asp
+            Cabe      lembrar     que     a    Nota       Técnica
+GVIMS/GGTES/Anvisa nº 05/2019 traz as orientações gerais para
+a notiﬁcação de EA relacionados à assistência à saúde. Ainda,
+ressalta-se que os erros de medicação devem ser notiﬁcados no
+VigiMed (https://www.gov.br/anvisa/pt-br/assuntos/fiscalizacao-
+emonitoramento/notificacoes/vigimed ), e queixas técnicas
+devem ser notificadas no Notivisa 1.0.
+            A notiﬁcação de surtos infecciosos em serviços de
+saúde deve ser realizada pelo formulário nacional disponibilizado
+no                                                           link:
+https://www.gov.br/anvisa/ptbr/assuntos/servicosdesaude/prevencao-
+e-controle-de-infeccao-eresistencia-microbiana/notificacao-de-
+iras-e-rm. Nesse formulário, podem ser notiﬁcados surtos de
+infecção ou colonização por microrganismos multirresistentes;
+eventos infecciosos epidemiologicamente relevantes; surtos por
+agentes inusitados ou comunitários de transmissão nosocomial;
+primeira identiﬁcação de microrganismos multirresistentes no
+serviço de saúde; Infecções por Candida auris e Micobactérias de
+crescimento rápido (MCR). Mais informações estão disponíveis no
+documento: Orientações para notiﬁcação de surtos infecciosos
+em serviços de saúde, no link: https://www.gov.br/anvisa/pt-
+br/centraisdeconteudo/publicacoes/servicosdesaude/publicacoes/orie
+ntacoes-para-notificacao-de-surtos-infecciosos-em-servicos-
+desaude.pdf
+            Informações sobre as medidas de prevenção e
+controle das infecções por Micobactérias de Crescimentos Rápido
+(MCR) e os dados notiﬁcados à Anvisa estão disponíveis em
+https://www.gov.br/anvisa/ptbr/assuntos/servicosdesaude/prevencao-
+e-controle-de-infeccao-eresistencia-microbiana/infeccoes-por-
+micobacteria-de-crescimentorapido-mcr
+           2.3 Resíduos de serviço de saúde
+             Os estabelecimentos que oferecem serviços de
+estética, classiﬁcados como de interesse para a saúde como já
+disposto no item 1.6 desta nota técnica, ou os classiﬁcados como
+serviços de saúde, devem observar as disposições da RDC nº 222,
+de 28 de março de 2018, no que couber. Esta resolução traz,
+inclusive, a classiﬁcação dos diferentes resíduos gerados por um
+serviço, bem como todas as etapas do gerenciamento (da
+segregação à disposição ﬁnal). Devem ser apresentados o Plano
+de Gerenciamento de Resíduos de Serviços de Saúde (PGRSS) e
+as cópias do contrato de prestação de serviços e da licença
+ambiental das empresas prestadoras de serviços para a
+destinação dos resíduos de serviços de saúde (RSS).
+         De acordo com o CAPÍTULO II - DO PLANO DE
+GERENCIAMENTO DE RESÍDUOS DE SERVIÇOS DE SAÚDE
+                  "Art. 4º O gerenciamento dos RSS deve abranger todas
+                  as etapas de planejamento dos recursos físicos, dos
+                  recursos materiais e da capacitação dos recursos
+                  humanos envolvidos.
+                  Art. 5º Todo serviço gerador deve dispor de um Plano de
+                  Gerenciamento de RSS (PGRSS), observando as
+                  regulamentações federais, estaduais, municipais ou do
+                  Distrito Federal.
+                  Art. 6º No PGRSS, o gerador de RSS deve:
+
+                     Nota Técnica 2 (2790101)        SEI 25351.921737/2023-11 / pg. 16
+              I – estimar a quantidade dos RSS gerados por grupos,
+              conforme a classificação do Anexo I desta resolução;
+              II- descrever os procedimentos relacionados ao
+              gerenciamento dos RSS quanto à geração, à segregação,
+              ao acondicionamento, à identiﬁcação, à coleta, ao
+              armazenamento, ao transporte, ao tratamento e à
+              disposição final ambientalmente adequada;
+              III- estar em conformidade com as ações de proteção à
+              saúde pública, do trabalhador e do meio ambiente;
+              IV- estar em conformidade com a regulamentação
+              sanitária e ambiental, bem como com as normas de
+              coleta e transporte dos serviços locais de limpeza urbana;
+              V - quando aplicável, contemplar os procedimentos locais
+              deﬁnidos pelo processo de logística reversa para os
+              diversos RSS;
+              VI - estar em conformidade com as rotinas e processos de
+              higienização e limpeza vigentes no serviço gerador de
+              RSS;
+              VII- descrever as ações a serem adotadas em situações de
+              emergência e acidentes decorrentes do gerenciamento
+              dos RSS;
+              VIII- descrever as medidas preventivas e corretivas de
+              controle integrado de vetores e pragas urbanas, incluindo
+              a tecnologia utilizada e a periodicidade de sua
+              implantação;
+              IX- descrever os programas de capacitação desenvolvidos
+              e implantados pelo serviço gerador abrangendo todas as
+              unidades geradoras de RSS e o setor de limpeza
+              e conservação;
+              X- apresentar documento comprobatório da capacitação e
+              treinamento dos funcionários envolvidos na prestação de
+              serviço de limpeza e conservação que atuem no serviço,
+              próprios ou terceiros de todas as unidades geradoras;
+              XI- apresentar cópia do contrato de prestação de serviços
+              e da licença ambiental das empresas prestadoras de
+              serviços para a destinação dos RSS; e
+              XII- apresentar documento comprobatório de operação
+              de venda ou de doação dos RSS destinados à
+              recuperação, à reciclagem, à compostagem e à logística
+              reversa.
+              Parágrafo único. Os documentos referidos nos incisos X e
+              XII devem ser mantidos arquivados, em meio físico ou
+              eletrônico, por no mínimo cinco anos, para ﬁns de
+              inspeção sanitária, a critério da autoridade sanitária
+              competente.
+              [...]
+              Art. 9º O serviço gerador de RSS deve manter cópia do
+              PGRSS disponível para consulta dos órgãos de vigilância
+              sanitária ou ambientais, dos funcionários, dos pacientes
+              ou do público em geral.
+              Art. 10 O serviço gerador de RSS é responsável pela
+              elaboração,     implantação,   implementação      e
+              monitoramento do PGRSS.
+              Parágrafo único. A elaboração, a implantação e o
+              monitoramento do PGRSS pode ser terceirizada."
+
+        2.4 Regularização dos produtos pela
+Agência Nacional de Vigilância Sanitária (Anvisa)
+        A Lei nº 6.360/1976 estabelece que:
+              "Art. 1º - Ficam sujeitos às normas de vigilância sanitária
+              instituídas por esta Lei os medicamentos, as drogas, os
+              insumos farmacêuticos e correlatos, deﬁnidos na Lei nº
+              5.991, de 17 de dezembro de 1973, bem como os
+              produtos de higiene, os cosméticos, perfumes, saneantes
+              domissanitários, produtos destinados à correção estética
+              e outros adiante definidos.
+              Art. 2º - Somente poderão extrair, produzir, fabricar,
+              transformar, sintetizar, puriﬁcar, fracionar, embalar,
+              reembalar, importar, exportar, armazenar ou expedir os
+              produtos de que trata o Art. 1º as empresas para tal ﬁm
+              autorizadas pelo Ministério da Saúde e cujos
+
+                  Nota Técnica 2 (2790101)         SEI 25351.921737/2023-11 / pg. 17
+                  estabelecimentos hajam sido licenciados pelo órgão
+                  sanitário das Unidades Federativas em que se localizem."
+             Isso posto, todas as empresas que tenham relação
+direta ou indireta com produtos regularizados pela Anvisa, sejam
+eles medicamentos, saneantes, produtos para saúde, cosméticos,
+entre outros, e os serviços sujeitos à vigilância sanitária, estão
+sujeitos às legislações aplicáveis.
+            Nos serviços de saúde, utilizam-se medicamentos,
+produtos para saúde, cosméticos, saneantes e todos devem estar
+devidamente regularizados pela Anvisa e utilizados conforme as
+respectivas legislações.
+           A Lei nº 6.437, de 20 de agosto de 1977,estabelece
+que:
+                  "Art. 10 - São infrações sanitárias:
+                  (...)
+                  IV - extrair, produzir, fabricar, transformar, preparar,
+                  manipular, puriﬁcar, fracionar, embalar ou reembalar,
+                  importar, exportar, armazenar, expedir, transportar,
+                  comprar, vender, ceder ou usar alimentos, produtos
+                  alimentícios,     medicamentos,         drogas,    insumos
+                  farmacêuticos,     produtos     dietéticos,   de    higiene,
+                  cosméticos, correlatos, embalagens, saneantes, utensílios
+                  e aparelhos que interessem à saúde pública ou
+                  individual, sem registro, licença, ou autorizações do órgão
+                  sanitário competente ou contrariando o disposto na
+                  legislação sanitária pertinente."
+           De acordo com a RDC nº 751, de 15 de setembro de
+2022, que dispõe sobre a classiﬁcação de risco, os regimes de
+notiﬁcação e de registro, e sobre os requisitos de rotulagem e
+instruções de uso de dispositivos médicos (produtos médicos),
+esses são definidos como:
+                  "[...] qualquer instrumento, aparelho, equipamento,
+                  implante, dispositivo médico para diagnóstico in vitro,
+                  software, material ou outro artigo, destinado pelo
+                  fabricante a ser usado, isolado ou conjuntamente, em
+                  seres humanos, para algum dos seguintes propósitos
+                  médicos especíﬁcos, e cuja principal ação pretendida não
+                  seja alcançada por meios farmacológicos, imunológicos
+                  ou metabólicos no corpo humano, mas que podem ser
+                  auxiliados na sua ação pretendida por tais meios:
+                  a)    diagnóstico,       prevenção,       monitoramento,
+                  tratamento (ou alívio) de uma doença;
+                  b) diagnóstico, monitoramento, tratamento ou reparação
+                  de uma lesão ou deficiência;
+                  c) investigação, substituição, alteração da anatomia ou
+                  de um processo ou estado fisiológico ou patológico;
+                  d) suporte ou manutenção da vida;
+                  e) controle ou apoio à concepção; ou
+                  f) fornecimento de informações por meio de exame in
+                  vitro de amostras provenientes do corpo humano,
+                  incluindo doações de órgãos e tecidos."
+           Assim, como é consensual, correlatos são produtos
+médicos e todos devem estar obrigatoriamente regularizados
+pela Anvisa para seu uso e comercialização.
+            De acordo com o art. 55 da RDC nº 63/2011, “o
+serviço de saúde deve garantir que os materiais e equipamentos
+sejam utilizados exclusivamente para os fins a que se destinam.”
+          2.5 Regularização dos serviços de saúde
+pela vigilância sanitária local
+           A regularização signiﬁca que o estabelecimento que
+oferece serviços de estética está licenciado pela autoridade
+sanitária correspondente, e cumpre as condições técnico-
+operacionais de acordo com as legislações pertinentes, sejam
+elas municipais, estaduais ou federais.
+           A RDC nº 63/2011 estabelece:
+
+                      Nota Técnica 2 (2790101)           SEI 25351.921737/2023-11 / pg. 18
+                  "Seção III – Definições
+                  Art. 4º Para efeito deste Regulamento Técnico são
+                  adotadas as seguintes definições:
+                  IV - licença atualizada: documento emitido pelo órgão
+                  sanitário competente dos Estados, Distrito Federal ou dos
+                  Municípios, contendo permissão para o funcionamento
+                  dos estabelecimentos que exerçam atividades sob regime
+                  de vigilância sanitária;
+                  [...]
+                  Art. 10. Os serviços objeto desta resolução devem possuir
+                  licença atualizada de acordo com a legislação sanitária
+                  local, afixada em local visível ao público.
+                  Parágrafo único. Os estabelecimentos integrantes da
+                  Administração Pública ou por ela instituídos independem
+                  da licença para funcionamento, ﬁcando sujeitos, porém,
+                  às     exigências    pertinentes   às    instalações, aos
+                  equipamentos e à aparelhagem adequada e à assistência
+                  e responsabilidade técnicas, aferidas por meio de
+                  fiscalização realizada pelo órgão sanitário local.
+                  [...]
+                  Art.11
+                  § 2º A licença de funcionamento dos serviços e atividades
+                  terceirizados deve conter informação sobre a sua
+                  habilitação para atender serviços de saúde, quando
+                  couber."
+           De acordo com a Lei nº 6.437/1977.
+                  "Art. 10 - São infrações sanitárias:
+                  I - construir, instalar ou fazer funcionar, em qualquer
+                  parte do território nacional, laboratórios de produção de
+                  medicamentos, drogas, insumos, cosméticos, produtos de
+                  higiene, dietéticos, correlatos, ou quaisquer outros
+                  estabelecimentos que fabriquem alimentos, aditivos para
+                  alimentos, bebidas, embalagens, saneantes e demais
+                  produtos que interessem à saúde pública, sem registro,
+                  licença e autorizações do órgão sanitário competente ou
+                  contrariando as normas legais pertinentes.
+                  II - construir, instalar ou fazer funcionar hospitais, postos
+                  ou casas de saúde, clínicas em geral, casas de repouso,
+                  serviços ou unidades de saúde, estabelecimentos ou
+                  organizações aﬁns, que se dediquem à promoção,
+                  proteção e recuperação da saúde, sem licença do órgão
+                  sanitário competente ou contrariando normas legais e
+                  regulamentares pertinentes.
+                  III - instalar ou manter em funcionamento consultórios
+                  médicos, odontológicos e de pesquisas clínicas, clínicas de
+                  hemodiálise, bancos de sangue, de leite humano, de
+                  olhos, e estabelecimentos de atividades aﬁns, institutos
+                  de esteticismo, ginástica, ﬁsioterapia e de recuperação,
+                  balneários,      estâncias     hidrominerais,      termais,
+                  climatéricas, de repouso, e congêneres, gabinetes ou
+                  serviços que utilizem aparelhos e equipamentos
+                  geradores de raios X, substâncias radioativas, ou
+                  radiações ionizantes e outras, estabelecimentos,
+                  laboratórios, oﬁcinas e serviços de ótica, de aparelhos ou
+                  materiais óticos, de prótese dentária, de aparelhos ou
+                  materiais para uso odontológico, ou explorar atividades
+                  comerciais, industriais, ou ﬁlantrópicas, com a
+                  participação de agentes que exerçam proﬁssões ou
+                  ocupações técnicas e auxiliares relacionadas com a
+                  saúde, sem licença do órgão sanitário competente ou
+                  contrariando o disposto nas demais normas legais e
+                  regulamentares pertinentes."
+
+           2.6 Gerenciamento de tecnologias
+           A RDC nº 63/2011 estabelece como gerenciamento
+de tecnologias: procedimentos de gestão, planejados e
+implementados a partir de bases cientíﬁcas e técnicas,
+normativas e legais, com o objetivo de garantir a rastreabilidade,
+qualidade, eﬁcácia, efetividade, segurança e em alguns casos o
+desempenho das tecnologias de saúde utilizadas na prestação de
+serviços de saúde, abrangendo cada etapa do gerenciamento,
+desde o planejamento e entrada das tecnologias no
+
+                      Nota Técnica 2 (2790101)           SEI 25351.921737/2023-11 / pg. 19
+estabelecimento de saúde até seu descarte, visando à proteção
+dos trabalhadores, à preservação da saúde pública e do meio
+ambiente e à segurança do paciente.
+           A RDC nº 63/2011 estabelece:
+                  "Art. 23. O serviço de saúde deve manter disponível,
+                  segundo o seu tipo de atividade, documentação e registro
+                  referente à:
+                  [...]
+                  IX   - manutenção corretiva          e   preventiva   dos
+                  equipamentos e instrumentos;"
+            A norma estabelece, ainda, no art. 55, que o serviço
+de saúde deve garantir que os materiais e equipamentos sejam
+utilizados exclusivamente para os fins a que se destinam.
+          A RDC nº 509, de 27 de maio de 2021, dispõe sobre o
+gerenciamento de tecnologias em saúde em estabelecimentos de
+saúde.
+            Conforme art. 1º, a referida Resolução possui o
+objetivo de estabelecer os critérios mínimos a serem seguidos
+pelos estabelecimentos de saúde para o gerenciamento de
+tecnologias em saúde utilizadas na prestação de serviços de
+saúde, de modo a garantir a sua rastreabilidade, qualidade,
+eﬁcácia, efetividade e segurança e, no que couber, desempenho,
+desde a entrada no estabelecimento de saúde até seu destino
+ﬁnal, incluindo o planejamento dos recursos físicos, materiais e
+humanos, bem como, da capacitação dos proﬁssionais envolvidos
+nos processos.
+                  "Art. 2º Esta Resolução se aplica às seguintes tecnologias
+                  em saúde, utilizadas na prestação de serviços de saúde:
+                  I - produtos para saúde, incluindo equipamentos de
+                  saúde;
+                  II - produtos de higiene e cosméticos;
+                  III - medicamentos; e
+                  IV - saneantes.
+                  §1º Excluem-se das disposições desta Resolução os
+                  equipamentos de saúde deﬁnidos como equipamentos
+                  gerais.
+                  §2º A aplicabilidade desta Resolução se restringe aos
+                  estabelecimentos de saúde em âmbito hospitalar,
+                  ambulatorial e domiciliar e àqueles que prestam serviços
+                  de apoio ao diagnóstico e terapia, intra ou extra-
+                  hospitalar."
+
+           2.7 Infraestrutura física
+         A RDC        nº   50,   de   21    de    fevereiro   de   2002,
+compreende:
+            a) as construções novas              de   estabelecimentos
+assistenciais de saúde de todo o país;
+            b) as áreas a serem ampliadas de estabelecimentos
+assistenciais de saúde já existentes; e
+           c) as reformas de estabelecimentos assistenciais de
+saúde já existentes e os anteriormente não destinados a
+estabelecimentos de saúde.
+            Desse modo, as atividades de estética realizadas
+pelos serviços de saúde com base no programa de necessidades,
+oportunidade em que se deﬁne o conjunto de atividades e
+ambientes que comporá o serviço, deverão atender aos requisitos
+mínimos estabelecidos pela RDC nº 50/2002, e outras normas
+referenciadas pelo regulamento técnico.
+        2.8        Atuação            dos        proﬁssionais           e
+capacitação
+           Outro ponto objeto de questionamento frequente à
+Anvisa, e que é de extrema relevância, refere-se a quais
+proﬁssionais de saúde podem realizar os procedimentos
+
+                      Nota Técnica 2 (2790101)         SEI 25351.921737/2023-11 / pg. 20
+estéticos. Esclarecemos que a competência para deﬁnir se
+determinada categoria de proﬁssionais pode ou não realizar certo
+procedimento é dos conselhos profissionais e não da Anvisa.
+            Ressalta-se aqui que a Procuradoria Federal junto à
+Anvisa, por meio do Parecer Consultivo 97/2007 e Nota
+Consultiva 68/2012, aﬁrma "A Anvisa não detém competência
+para resolver questão relacionada ao exercício da profissão [...]”
+           Porém, é fundamental que os proﬁssionais de saúde
+que estejam envolvidos na assistência aos pacientes estejam
+legalmente habilitados para exercer suas funções e possuam
+capacitação comprovada para a prática. Os comprovantes devem
+estar sob sua guarda e de fácil acesso para apresentar à
+autoridade sanitária, sempre que for solicitado.
+
+
+           3. Considerações finais
+            Pelo exposto, enfatiza-se que esta nota técnica tem o
+objetivo de orientar os proﬁssionais da vigilância sanitária e
+proﬁssionais da área de estética que atuam nos serviços de
+saúde e serviços de interesse para a saúde. Este documento
+apresenta informações que estão disponíveis nacionalmente até
+o momento, e pode ser atualizado de acordo com o surgimento
+de novas evidências ou normativas. Ademais, esta nota técnica
+não é exaustiva em relação às normativas sanitárias a serem
+atendidas, devendo-se observar também as normas sanitárias
+específicas e normativas locais sobre o tema.
+
+
+           Referências
+Aesthetic Surgery Journal. 2011; 31(6) 711–713; Santis EPD, et
+al. Anais Brasileiros de Dermatologia [online]. 2022, v. 97, n. 4
+AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA. Resolução da
+Diretoria Colegiada- RDC n. 50, de 21 de fevereiro de 2002.
+Disponível                                             em:<
+http://antigo.anvisa.gov.br/documents/10181/2718376/RDC_50_2002_COMP.
+pdf/9682e8b7-3c4f-4b30-bec9-f76de593696d >
+AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA. Resolução da
+Diretoria Colegiada- RDC n. 156, de 11 de agosto de 2006.
+Disponível                                                em:<
+https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2006/res0156_11_08_2006.
+html>
+AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA. Resolução da
+Diretoria Colegiada- RDC n. 222, de 28 de março de 2018.
+Disponível       em:< https://www.in.gov.br/web/guest/materia/-
+/asset_publisher/Kujrw0TZC2Mb/content/id/8436198/do1-2018-
+03-29resolucao-rdc-n-222-de-28-de-marco-de-2018-8436194 >
+AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA. Resolução da
+Diretoria Colegiada- RDC n. 185, de 22 de outubro de 2001.
+Disponível                                                em:<
+https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2001/rdc0185_22_10_2001.
+pdf >
+AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA. Resolução da
+Diretoria Colegiada-RESOLUÇÃO-RDC n 63, de 25 de novembro
+de              2011.             Disponível              em:<
+https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2011/rdc0063_25_11_2011.
+html >
+AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA. Resolução da
+Diretoria Colegiada- RESOLUÇÃO RDC n. 509, de 27 de maio de
+2021.                      Disponível                     em:<
+https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2020/rdc0509_27_05_2021.
+pdf >
+AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA. Resolução da
+Diretoria Colegiada- RESOLUÇÃO - RDC n. 36, de 25 de julho de
+
+                     Nota Técnica 2 (2790101)    SEI 25351.921737/2023-11 / pg. 21
+2013.                      Disponível                     em:<
+https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2013/rdc0036_25_07_2013.
+html >
+AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA. Resolução da
+Diretoria Colegiada- RESOLUÇÃO-RDC n. 42, de 25 de outubro de
+2010.                      Disponível                     em:<
+https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2010/res0042_25_10_2010.
+html >
+AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA. Manual de
+Limpeza e Desinfecção de Superfícies - Segurança do paciente
+em serviços de saúde: limpeza e desinfecção de superfícies –
+Última       versão      27/08/15       –     Disponível em
+http://antigo.anvisa.gov.br/resultado-de-busca?
+p_p_id=101&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&p_p_col_id=column-
+1&p_p_col_count=1&_101_struts_action=%2Fasset_publisher%2Fview_conte
+nt&_101_assetEntryId=271728&_101_type=document
+AGÊNCIA      NACIONAL        DE      VIGILÂNCIA      SANITÁRIA.
+Reprocessamento de produto para saúde deve seguir regra.
+Atualizado     em       04/11/2022      –     Disponível   em:
+https://www.gov.br/anvisa/pt-br/assuntos/noticias-
+anvisa/2016/reprocessamento-de-produto-para-saude-deve-
+seguirregra#/visualizar/27784 Acesso em 15/05/2023
+BRASIL. Lei nº 6.437, de 20 de agosto de 1977. Conﬁgura
+infrações à legislação sanitária federal, estabelece as sanções
+respectivas, e dá outras providências. Diário Oﬁcial da União,
+Brasília,                    DF.                      Disponível
+em:<http://www.planalto.gov.br/ccivil_03/leis/l6437.htm >
+BRASIL. Lei nº 13.643, de 3 de abril de 2018. Regulamenta as
+proﬁssões de Esteticista, que compreende o Esteticista e
+Cosmetólogo,    e   de   Técnico   em     Estética. Disponível
+em:<https://www.planalto.gov.br/ccivil_03/_ato2015-
+2018/2018/lei/l13643.html >
+BRASIL. Agência Nacional de Vigilância Sanitária (ANVISA). Nota
+Técnica n° 33/2023 – GHCOS/DIRE3/ANVISA. Assunto:
+Esclarecimentos acerca da irregularidade da notiﬁcação de
+produtos destinados a tratamentos estéticos invasivos como
+cosméticos na Anvisa, 2023.
+MINISTÉRIO DA SAÚDE. Portaria nº 529, de 1º de abril de 2013.
+Institui o Programa Nacional de Segurança do Paciente (PNSP).
+Disponível                                                em:
+https://bvsms.saude.gov.br/bvs/saudelegis/gm/2013/prt0529_01_04_2013.html
+MINISTÉRIO     DA     SAÚDE;      AGÊNCIA      NACIONAL        DE
+VIGILÂNCIA SANITÁRIA. Anexo 1: Protocolo de Prevenção de
+Quedas. Ministério da Saúde/ Anvisa/ Fiocruz. Brasília: Ministério
+da         Saúde;          2013.          Disponível           em
+https://www.gov.br/anvisa/ptbr/centraisdeconteudo/publicacoes/servicosdesaude/publicacoes/protocolo-
+deprevencao-de-quedas . Acesso em 10 abr. 2023.
+MINISTÉRIO DA SAÚDE; AGÊNCIA NACIONAL DE VIGILÂNCIA
+SANITÁRIA; FUNDAÇÃO OSWALDO CRUZ. Anexo 1: Protocolo para
+a prática de higiene das mãos nos serviços de saúde; 2013.
+Disponível                                                 em:
+https://www.gov.br/anvisa/ptbr/centraisdeconteudo/publicacoes/servicosdesaude/publicacoes/protocolo-
+dehigiene-das-maos. Acesso em 18 abr 2023.
+MINISTÉRIO DA SAÚDE; ANVISA; FIOCRUZ. Anexo 2: Protocolo
+de    identiﬁcação   do   paciente;    2013.   Disponível  em:
+https://www.gov.br/anvisa/ptbr/centraisdeconteudo/publicacoes/servicosdesaude/publicacoes/protocolo-
+deidentificacao-do-paciente. Acesso em 18 abr 2023.
+MINISTÉRIO DA SAÚDE; ANVISA; FIOCRUZ. Anexo 2: Protocolo
+para prevenção de Úlcera por Pressão; 2013. Disponível em:
+https://www.gov.br/anvisa/ptbr/centraisdeconteudo/publicacoes/servicosdesaude/publicacoes/protocolo-
+deulcera-por-pressao. Acesso em 18 abr 2023.
+MINISTÉRIO DA SAÚDE; ANVISA; FIOCRUZ. Anexo 3: Protocolo
+
+                     Nota Técnica 2 (2790101)   SEI 25351.921737/2023-11 / pg. 22
+para      cirurgia    segura;     2013.     Disponível     em:
+https://www.gov.br/anvisa/ptbr/centraisdeconteudo/publicacoes/servicosdesaude/publicacoes/protocolo-
+decirurgia-segura. Acesso em 22 abr 2023.
+MINISTÉRIO DA SAÚDE. AGÊNCIA NACIONAL DE VIGILÂNCIA
+SANITÁRIA. Protocolo de Segurança na Prescrição, uso e
+Administração de Medicamentos. Protocolo coordenado pelo
+Ministério da Saúde e ANVISA em parceria com FIOCRUZ e
+FHEMIG;             2013.              Disponível          em
+https://www.gov.br/anvisa/ptbr/centraisdeconteudo/publicacoes/servicosdesaude/publicacoes/protocolo-
+deseguranca-na-prescricao-uso-e-administracao-de-
+medicamentos.
+PROCURADORIA FEDERAL JUNTO À AGÊNCIA NACIONAL DE
+VIGILÂNCIA SANITÁRIA. Parecer Consultivo nº 67/2007 –
+PROCR/Anvisa e Nota Consultiva nº 68/2012/PF-Anvisa/PGF/AGU
+– Competência da Agência Nacional de Vigilância Sanitária para
+regulamentar assuntos relacionados à proﬁssionais de saúde
+(documento interno)
+SHEKELLE PG, Wachter RM, Pronovost PJ, Schoelles K, McDonald
+KM, Dy SM, et al. Making health care safer II: an updated critical
+analysis of the evidence for patient safety practices. Evid Rep
+Technol Assess (Full Rep). 2013(211):1-945.
+
+
+
+
+          Documento assinado eletronicamente por Janaina Lopes
+          Domingos, Gerente de Regulamentação e Controle
+          Sanitário em Serviços de Saúde, em 31/01/2024, às 16:01,
+          conforme horário oficial de Brasília, com fundamento no § 3º
+          do art. 4º do Decreto nº 10.543, de 13 de novembro de 2020
+          http://www.planalto.gov.br/ccivil_03/_ato2019-
+          2022/2020/decreto/D10543.htm.
+          Documento assinado eletronicamente por Alice Alves de
+          Souza, Coordenador(a) de Serviços de Interesse para a
+          Saúde, em 31/01/2024, às 16:02, conforme horário oficial de
+          Brasília, com fundamento no § 3º do art. 4º do Decreto nº
+          10.543, de 13 de novembro de 2020
+          http://www.planalto.gov.br/ccivil_03/_ato2019-
+          2022/2020/decreto/D10543.htm.
+          Documento assinado eletronicamente por Magda Machado
+          de Miranda Costa, Gerente de Vigilância e
+          Monitoramento em Serviços de Saúde, em 31/01/2024, às
+          17:15, conforme horário oficial de Brasília, com fundamento no
+          § 3º do art. 4º do Decreto nº 10.543, de 13 de novembro de
+          2020 http://www.planalto.gov.br/ccivil_03/_ato2019-
+          2022/2020/decreto/D10543.htm.
+          Documento assinado eletronicamente por Marcia Goncalves
+          de Oliveira, Gerente-Geral de Tecnologia em Serviços
+          de Saúde, em 31/01/2024, às 17:25, conforme horário oficial
+          de Brasília, com fundamento no § 3º do art. 4º do Decreto nº
+          10.543, de 13 de novembro de 2020
+          http://www.planalto.gov.br/ccivil_03/_ato2019-
+          2022/2020/decreto/D10543.htm.
+
+
+          A autenticidade deste documento pode ser conferida no site
+          https://sei.anvisa.gov.br/autenticidade, informando o código
+          verificador 2790101 e o código CRC 3A50BC32.
+
+
+
+                      Nota Técnica 2 (2790101)        SEI 25351.921737/2023-11 / pg. 23
+Referência: Processo nº
+                                                          SEI nº 2790101
+25351.921737/2023-11
+
+
+
+
+                          Nota Técnica 2 (2790101)   SEI 25351.921737/2023-11 / pg. 24
+

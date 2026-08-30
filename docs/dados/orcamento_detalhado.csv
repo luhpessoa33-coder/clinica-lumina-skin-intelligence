@@ -1,0 +1,67 @@
+﻿id,categoria,item,unidade,quantidade,essencial,recomendado,premium,fase,observacao
+1,Projetos e licenças,Levantamento topográfico/cadastral e sondagem simplificada,vb,1,3500,6000,9000,Antes da obra,Atualizar após cidade e terreno.
+2,Projetos e licenças,Projeto arquitetônico legal e executivo,vb,1,12000,22000,35000,Antes da obra,Contratar arquiteto local com RRT.
+3,Projetos e licenças,"Projetos estrutural, elétrico, hidráulico, climatização e prevenção",vb,1,8000,15000,25000,Antes da obra,Responsáveis com ART/RRT.
+4,Projetos e licenças,"Aprovação sanitária, prefeitura, bombeiros e taxas",vb,1,3000,7000,12000,Antes da obra,Varia por município e estado.
+5,Projetos e licenças,"PGRSS, POPs, documentação técnica e implantação LGPD",vb,1,2500,5000,8000,Pré-operação,Escopo final pelo RT.
+6,Projetos e licenças,"Abertura, contabilidade, contratos e seguros iniciais",vb,1,3500,7000,12000,Pré-operação,Não inclui tributos mensais.
+7,Projetos e licenças,Cursos complementares e treinamento de equipamentos,vb,1,5000,10000,20000,2026–2027,Além da especialização já em curso.
+8,Construção 60 m²,"Canteiro, proteção da casa e instalações provisórias",vb,1,6000,9000,14000,Obra,Inclui isolamento e controle de poeira.
+9,Construção 60 m²,"Movimento de terra, fundações e impermeabilização de base",vb,1,26000,38000,55000,Obra,Alto risco até sondagem e níveis reais.
+10,Construção 60 m²,"Estrutura, lajes/vergas e alvenarias",vb,1,42000,58000,78000,Obra,Módulo 6 × 10 m.
+11,Construção 60 m²,"Cobertura, calhas, rufos e impermeabilização",vb,1,18000,26000,38000,Obra,Destino pluvial depende do lote.
+12,Construção 60 m²,Revestimentos de paredes e preparação de superfícies,vb,1,12000,18000,26000,Obra,"Superfícies lisas, íntegras e laváveis."
+13,Construção 60 m²,"Pisos, rodapés e revestimentos molhados",m²,60,18000,30000,48000,Obra,Total instalado; inclui perdas e soleiras.
+14,Construção 60 m²,"Portas, janelas, ferragens e vidros",vb,1,12000,22000,36000,Obra,Conferir esquadrias J01–J07 e P01–P07.
+15,Construção 60 m²,"Forros, pintura e acabamentos finais",vb,1,14000,22000,34000,Obra,Tintas laváveis de baixo odor.
+16,Construção 60 m²,"Instalações hidráulicas, esgoto, louças e metais",vb,1,14000,22000,35000,Obra,Inclui pontos clínicos e área técnica.
+17,Construção 60 m²,"Instalações elétricas, quadros, dados e aterramento",vb,1,16000,26000,40000,Obra,Dimensionar cargas reais dos equipamentos.
+18,Construção 60 m²,"Climatização, renovação/exaustão e drenos",vb,1,12000,18000,28000,Obra,Projeto específico e equipamentos eficientes.
+19,Construção 60 m²,Sanitário acessível completo,vb,1,7000,12000,20000,Obra,"Inclui barras, reforços e acessórios."
+20,Construção 60 m²,"Segurança, emergência e sinalização técnica",vb,1,2500,5000,9000,Obra,Validar com Bombeiros.
+21,Construção 60 m²,"Testes, comissionamento, as built e limpeza pós-obra",vb,1,2500,4500,7000,Entrega,Condicionar pagamento final aos testes.
+22,Área externa 30 m²,"Escavação, regularização e retirada de material",vb,1,3000,5000,8000,Obra,Ajustar aos níveis reais.
+23,Área externa 30 m²,Base granular drenante e geotêxtil,vb,1,3000,5500,8000,Obra,Conforme prancha D-01.
+24,Área externa 30 m²,"Dreno linear, tubos e caixas de inspeção",vb,1,3500,6500,10000,Obra,Destino legal a confirmar.
+25,Área externa 30 m²,Rota acessível em piso permeável antiderrapante,m²,12.96,2500,4500,7000,Obra,Inclui 8% de perdas.
+26,Área externa 30 m²,Grama sintética permeável 30–35 mm instalada,m²,19.44,2000,3500,5500,Obra,"Exigir vazão, UV e garantia."
+27,Área externa 30 m²,"Bordas, contenções e acabamentos",vb,1,1500,2500,4000,Obra,Evitar degraus e aprisionamento de água.
+28,Área externa 30 m²,Iluminação externa e paisagismo de baixa manutenção,vb,1,1500,3500,7000,Final,Sem bloquear drenagem.
+29,Área externa 30 m²,Mão de obra especializada e testes de drenagem,vb,1,5000,8000,12000,Obra,Teste de chuva antes do aceite.
+30,Mobiliário e interiores,Marcenaria clínica e área técnica,vb,1,12000,22000,35000,Obra,"Armários fechados, bancada, cuba e estoque."
+31,Mobiliário e interiores,Maca elétrica 2 motores,un,1,3500,5500,7000,Fase 1,Capacidade e garantia por escrito.
+32,Mobiliário e interiores,Mocho sela ergonômico,un,2,800,1200,1700,Fase 1,Dois profissionais/apoios.
+33,Mobiliário e interiores,Carrinhos auxiliares,un,2,800,1200,1800,Fase 1,Separar material limpo.
+34,Mobiliário e interiores,Lupa luminária,un,1,350,600,800,Fase 1,Base estável e lavável.
+35,Mobiliário e interiores,Balcão acessível e mobiliário administrativo,vb,1,4000,8000,14000,Obra,Trecho acessível conforme A-03.
+36,Mobiliário e interiores,Recepção completa para quatro pessoas,vb,1,2300,5000,10000,Fase 1,"Assentos, mesa, filtro, café, persiana, Wi-Fi e acessórios."
+37,Mobiliário e interiores,Fotografia padronizada,kit,1,1000,2000,3350,Fase 1,"Tripé, luz difusa, fundo e escala."
+38,Mobiliário e interiores,"Comunicação visual, placas e decoração",vb,1,1200,3000,6000,Final,Inclui placas de biossegurança.
+39,Mobiliário e interiores,Apoio/copa e eletroportáteis,vb,1,1000,2500,5000,Fase 1,Sem alimentos na área técnica.
+40,Tecnologia e segurança,Notebook administrativo,un,1,3000,4500,5500,Fase 1,Criptografia e bloqueio automático.
+41,Tecnologia e segurança,Impressora multifuncional,un,1,900,1200,1800,Fase 1,Posição protegida do público.
+42,Tecnologia e segurança,Impressora de etiquetas,un,1,0,700,1200,Fase 1,Rastreabilidade de estoque.
+43,Tecnologia e segurança,"Roteador, rede separada e nobreak",kit,1,1100,1700,2300,Fase 1,Rede de visitantes separada.
+44,Tecnologia e segurança,"Câmeras, alarme e controle de acesso",kit,1,1500,3000,5000,Fase 1,Nunca posicionar câmera na sala de procedimentos.
+45,Tecnologia e segurança,"Domínio, ferramentas e serviços digitais do primeiro ano",vb,1,1000,2500,5000,Operação,Revisar assinaturas antes de renovar.
+46,Equipamentos,HIFU selecionado: Sonofocus / Ultrafocus / Ultramed,un,1,8091,10990,106656,Fase 2,Uma alternativa por cenário; não somar os três.
+47,Equipamentos,Fotobiomodulação: Laserpulse / Fluence / Antares,un,1,1980,2390,4474,Fase 2,Uma alternativa por cenário.
+48,Equipamentos,Limpeza de pele: alta frequência / Sonopeel / plataforma,un,1,500,3300,6490,Fase 1/2,Uma configuração por cenário.
+49,Equipamentos,Analisador de pele: portátil / intermediário / avançado,un,1,269,350,5000,Fase 1/expansão,Não substitui avaliação profissional.
+50,Equipamentos,Radiofrequência HTM Effect,un,1,0,0,8690,Expansão,Adiar no recomendado para preservar caixa.
+51,Equipamentos,Autoclave e seladora,kit,1,0,4059,8500,Condicional,Zero se processamento for terceirizado.
+52,Equipamentos,Câmara de conservação e monitoramento,kit,1,0,8000,9650,Condicional,"Reservar, mas comprar somente após habilitação/licença."
+53,Equipamentos,Sinais vitais e apoio clínico,kit,1,500,1200,1800,Fase 1,Seleção e calibração pelo RT.
+54,Equipamentos,"Manutenção, calibração e acessórios iniciais",vb,1,1500,3500,8000,Fase 1/2,Contrato e reserva técnica.
+55,Estoque inicial,"Materiais gerais, EPIs e biossegurança",vb,1,2500,4500,6500,Fase 1,Escala de 40 atendimentos/mês.
+56,Estoque inicial,Linha profissional não invasiva,vb,1,1000,2500,5000,Fase 1,Bioage/Tulípia/ADCOS conforme cadastro.
+57,Estoque inicial,Consumíveis de aparelhos,vb,1,500,1500,3000,Fase 2,Comprar próximo ao comissionamento.
+58,Estoque inicial,Consumíveis de esterilização,vb,1,0,1000,2500,Condicional,Zero se processamento terceirizado.
+59,Estoque inicial,Reserva para injetáveis piloto,vb,1,0,8000,20000,Após licença,Reservar caixa; não comprar antecipadamente.
+60,Estoque inicial,Kit de emergência definido pelo RT,vb,1,0,2000,4000,Após licença,Conteúdo somente após protocolo aprovado.
+61,Estoque inicial,Materiais de limpeza e sanitário,vb,1,1000,1500,2500,Fase 1,"Inclui mops, panos e reposição."
+62,Estoque inicial,"Água, café e itens de recepção",vb,1,500,1000,1500,Fase 1,Primeiro ciclo de abastecimento.
+63,Lançamento e operação,"Identidade aplicada, inauguração e comunicação inicial",vb,1,3000,8000,15000,Pré-abertura,Sem publicidade irregular ou promessa de resultado.
+64,Lançamento e operação,Contrato/coleta de resíduos e implantação,vb,1,1000,2500,4000,Pré-abertura,Fornecedor licenciado.
+65,Lançamento e operação,Contratos iniciais de manutenção e suporte,vb,1,1500,3500,8000,Pré-abertura,"Equipamentos, climatização e segurança."
+66,Capital de giro,Reserva operacional de três meses,vb,1,30000,60000,90000,Antes da abertura,"Pessoal, consumo, utilidades, taxas e marketing; recalcular com despesas reais."

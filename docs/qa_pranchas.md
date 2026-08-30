@@ -1,0 +1,23 @@
+# Revisão visual das pranchas
+
+Foram verificados o enquadramento A3, a legibilidade das cotas, a posição das portas, o mobiliário principal, a separação funcional e os fluxos. A primeira exportação apresentou recorte vertical incorreto causado pelo ajuste automático dos limites; o gerador foi corrigido para manter a página A3. Em seguida, o carimbo foi reorganizado para separar dados gerais, conteúdo específico da prancha e aviso de responsabilidade técnica.
+
+A planta A-01 apresenta a envoltória de 6,00 × 10,00 m, divisão 2,15 + 1,20 + 2,15 m, recepção frontal, sala principal, sala de avaliação, sanitário acessível, área técnica e apoio. A prancha A-02 diferencia cliente, equipe, material limpo e material usado/resíduos, mantendo a saída técnica posterior como rota preferencial de apoio.
+
+As pranchas são **conceituais e dimensionais**, não executivas. Cargas elétricas, diâmetros hidráulicos, ventilação, estrutura, combate a incêndio, impermeabilização e detalhamento de acessibilidade dependem de levantamento local, fabricantes, normas atualizadas e responsabilidade técnica.
+
+Na revisão final, a A-01 ficou enquadrada em A3 paisagem, com cotas gerais de 6,00 × 10,00 m, divisão transversal 2,15 + 1,20 + 2,15 m, cotas longitudinais, nomes, áreas e mobiliário legíveis. O carimbo apresenta dados do anteprojeto e quadro de áreas sem sobreposição. A A-03 evidencia a rota acessível central de 1,20 m, giros de 1,50 m na recepção e no sanitário e o trecho acessível do balcão. A rota deverá ser prolongada até o passeio público assim que o levantamento do terreno definir portão, níveis e calçada.
+
+A revisão complementar confirmou a A-04 como prancha de construção/intervenção para o cenário de módulo novo: toda a área proposta está hachurada como construção nova, as vedações e esquadrias são identificadas e a interface com o terreno permanece marcada para levantamento. A A-01 passou a exibir espessura externa de 0,15 m, divisórias de 0,10 m e chamadas de portas e janelas. A validação definitiva das esquadrias laterais e da ligação com a casa continua condicionada às medidas reais.
+
+A última reexportação da A-01 incluiu medidas para J01 a J07, além das portas P01 a P07 e espessuras de paredes. As chamadas permanecem legíveis na prancha A3 e foram incorporadas ao PDF consolidado de oito páginas.
+
+Na ampliação para 16 pranchas, as páginas I-01, A-01, A-02, A-04 e A-05 foram revisadas. A implantação-base distingue casa existente a levantar, módulo novo de 60 m², rota acessível, grama drenante, acesso e destino pluvial pendente. A planta, os fluxos e a intervenção preservam a geometria aprovada. Os cortes A–A e B–B mostram piso ±0,00, forro a +2,70 m, cumeeira indicativa a +3,55 m e a circulação central de 1,20 m, com ressalva explícita de confirmação estrutural e de níveis no executivo.
+
+As páginas A-06 a E-01 também foram revisadas. A A-06 reúne quatro fachadas conceituais e identifica o letreiro frontal; a A-07 apresenta portas P01–P07 e janelas J01–J07 com dimensões, materiais, peitoris e critérios; a A-08 reúne quatro detalhes de especificação preliminar para bancada clínica, rodapé/piso, sanitário acessível e encontro da área drenante; a D-01 permanece legível com planta, caimentos e seção de base; a E-01 mantém pontos de tomadas e dados sem sobreposição. Os detalhes permanecem conceituais e exigem desenho executivo de fixações e impermeabilização após definição dos produtos.
+
+As páginas E-02, H-01, L-01, M-01 e A-03 foram revisadas no PDF consolidado. A E-02 identifica sete reservas de equipamentos e separa itens essenciais de autoclave/cadeia fria condicionais; H-01 concentra água, esgoto e drenos na faixa técnica; L-01 diferencia iluminação clínica linear e iluminação geral; M-01 posiciona três evaporadoras e exaustões conceituais; A-03 preserva rota de 1,20 m, giros de 1,50 m e balcão acessível. Todos os campos dependentes de fabricante permanecem indicados como “a confirmar”.
+
+A MQ-01 foi revisada como modelo axonométrico sem cobertura, coerente com a setorização do módulo 6 × 10 m. A primeira exportação apresentou sobreposição entre o código e o título longo e ainda não mostrava o módulo externo; o gerador foi ajustado para título curto e inclusão da rota permeável e da faixa de grama sintética drenante.
+
+A MQ-01 reexportada foi verificada em PNG: o título não se sobrepõe, a maquete mantém a geometria interna e a faixa externa aparece ao lado da clínica com rota permeável e grama drenante diferenciadas por cor. O modelo continua deliberadamente conceitual, sem cobertura e sem representação de fundações ou instalações ocultas.

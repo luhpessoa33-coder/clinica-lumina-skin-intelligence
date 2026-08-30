@@ -1,0 +1,131 @@
+# Project TODO
+
+- [x] Aplicar o nome Clínica Lumina Skin Intelligence em toda a identidade do painel.
+- [x] Aplicar o logotipo selecionado disponibilizado pela configuração do projeto, preservando proporção, contraste e legibilidade.
+- [x] Criar um sistema visual elegante inspirado em clínica premium, com paleta alinhada ao logotipo, tipografia editorial e interface responsiva.
+- [x] Usar o componente de layout administrativo existente como base, após avaliar sua estrutura e acessibilidade.
+- [x] Criar dashboard executivo da implantação com progresso geral, orçamento, marcos, pendências críticas, alertas e próximos passos.
+- [x] Modelar a clínica-base térrea de 60 m² em módulo 6,00 × 10,00 m.
+- [x] Cadastrar ambientes com nome, área, medidas, função, requisitos sanitários, instalações, mobiliário e status de validação.
+- [x] Exibir anteprojeto com layout, fluxos público/técnico, setorização, acessibilidade e área externa drenante com grama sintética.
+- [x] Criar biblioteca de plantas, instalações, detalhamentos, referências e imagens conceituais.
+- [x] Permitir anexar fotos do terreno, croquis, plantas, cotações, documentos técnicos, notas fiscais e referências aos itens do planejamento.
+- [x] Armazenar anexos em armazenamento de arquivos e manter apenas metadados e referências no banco de dados.
+- [x] Criar orçamento por categorias de construção, instalações, mobiliário, decoração, equipamentos, insumos, taxas e contingência.
+- [x] Comparar valores previstos, cotados, contratados e pagos, com edição por item.
+- [x] Permitir editar valores e cadastros preservando os dados gravados no banco.
+- [x] Criar lista de materiais com unidade, quantidade, preço unitário, fornecedor, ambiente, prioridade e status.
+- [x] Criar catálogo comparativo de equipamentos com marca/modelo, tecnologias, registro sanitário, garantia, assistência técnica, consumíveis e custo total.
+- [x] Incluir comparativo específico do Ibramed Sonofocus com HTM Ultrafocus e Medical San Ultramed HIFU, incluindo preço, registro, consumíveis, garantia, riscos e recomendação de compra.
+- [x] Criar lista de compras de equipamentos, produtos iniciais, materiais e mobiliário com quantidade, fornecedor, preço, prioridade e status.
+- [x] Criar cadastro editável de fornecedores e diretório inicial com sites, categorias, cotações, prazo, garantia e observações.
+- [x] Criar central de documentos, licenças, normas, riscos e validações técnicas e sanitárias.
+- [x] Criar cronograma de obra e implantação com tarefas, responsáveis, prazos, marcos e progresso.
+- [x] Criar área de cursos complementares com prioridade, investimento e status.
+- [x] Criar alertas internos para tarefas vencidas, licenças em revisão e pendências críticas.
+- [x] Preparar endpoint diário idempotente para avisos programados de tarefas, licenças e compras críticas; ativação ocorre após publicação.
+- [x] Exibir campo Valor Cobrado de forma destacada na simulação de futuros protocolos, mantendo-o opcional.
+- [x] Permitir descontos na futura montagem de protocolos e preservar valores originais para auditoria.
+- [x] Implementar autenticação e restringir os dados de planejamento aos usuários autorizados.
+- [x] Criar estados de carregamento, vazio, erro e confirmação para os módulos principais.
+- [x] Garantir foco visível, contraste adequado e adaptação para desktop, tablet e celular.
+- [x] Criar testes Vitest para regras financeiras e alertas de prazo, preservando o teste de autenticação existente.
+- [x] Executar verificação de tipos, testes automatizados e build de produção.
+- [x] Verificar visualmente as telas principais em desktop e celular.
+- [x] Pesquisar e documentar normas sanitárias, acessibilidade e requisitos profissionais com fontes oficiais, mantendo cidade/UF e conselho profissional como validações locais pendentes.
+- [x] Desenvolver programa de necessidades, layout cotado e fluxos da clínica de 60 m².
+- [x] Desenvolver plantas conceituais de layout, construção, forro/iluminação, elétrica/dados, hidráulica, climatização, acessibilidade e drenagem externa.
+- [x] Preparar memorial de acabamentos, instalações e orientações para execução por pedreiros sob responsabilidade técnica local.
+- [x] Dimensionar área externa drenante e especificar base, caimentos, drenos, bordas e grama sintética permeável em módulo-base ajustável de 30 m².
+- [x] Pesquisar mobiliário, equipamentos, insumos, marcas, fornecedores e faixas de preço atuais, com catálogo mestre editável de 116 itens.
+- [x] Construir quantitativos e orçamento preliminar por cenários Essencial, Recomendado e Premium.
+- [x] Gerar imagens conceituais da recepção, circulação, administração/copa, área externa e maquete, complementadas por vistas técnicas dos demais ambientes.
+- [x] Organizar dossiê técnico final com premissas, limitações, referências, riscos e pendências para validação local.
+- [x] Criar fase preparatória até abril de 2027 para especialização, reserva financeira, pesquisa, documentação e cotações.
+- [x] Fixar maio de 2027 como início editável da implantação física da clínica.
+- [x] Criar cronograma-base editável de implantação física com duração de 18 meses, de maio de 2027 a outubro de 2028.
+- [x] Criar plano mensal de reserva financeira com meta editável até o início da obra.
+- [x] Relacionar cursos e marcos acadêmicos às decisões de compra, habilitação profissional e início de cada serviço.
+- [x] Otimizar o painel para uso no Safari do iPhone, com navegação por toque, áreas seguras, formulários móveis e tabelas adaptáveis.
+- [x] Configurar o aplicativo para atalho na tela inicial do iPhone, com manifesto e metadados apropriados.
+- [x] Garantir acesso pela internet com autenticação e persistência no banco de dados.
+- [x] Permitir que a administradora ajuste diretamente no painel dados, valores, status, prioridades e conteúdos cadastrados.
+- [x] Criar planta baixa cotada da clínica de 60 m², com cotas lineares completas, espessuras, vãos de portas e janelas, posição de mobiliário e identificação dos ambientes.
+- [x] Validar e documentar o anteprojeto com representação gráfica do fluxo público/técnico e da circulação acessível sobre a planta.
+- [x] Criar prancha específica de construção/intervenção, distinguindo paredes novas, elementos a confirmar no existente, vãos e legenda de intervenção.
+- [x] Completar a planta baixa cotada com cotas explícitas de espessuras de paredes e vãos de portas e janelas na própria prancha.
+- [x] Registrar no painel como bloqueio obrigatório a atualização do layout após levantamento real do terreno e dos acessos, sem apresentar o anteprojeto como versão executiva final.
+- [x] Reexportar e revisar a planta A-01 após incluir todas as cotas das janelas J01–J07.
+- [x] Criar lista mestra de materiais de uso geral, incluindo algodão, gaze, cotonetes, compressas, luvas, máscaras, toucas, propés, campos, lençóis, fitas, curativos, antissépticos, saneantes e coletores.
+- [x] Criar lista de insumos por procedimento não invasivo, com unidade, quantidade inicial, consumo por sessão, estoque mínimo, validade, marca e fornecedor.
+- [x] Criar lista condicional de injetáveis e harmonização facial, incluindo toxinas, preenchedores, bioestimuladores, anestésicos, seringas, agulhas, cânulas, hialuronidase e itens de manejo de intercorrências, bloqueada até validação profissional e sanitária.
+- [x] Definir cadeia fria, armazenamento, controle de lote/validade, quarentena, rastreabilidade, descarte e estoque de segurança para Botox, Nabota e Xeomin, com atualização obrigatória pela bula no momento da compra.
+- [x] Associar materiais aos procedimentos por identificador único e preparar custo/baixa para a fase clínica futura, sem criar prontuários ou estoque assistencial nesta etapa de implantação.
+- [x] Criar kit de conforto da recepção para quatro pessoas com assentos laváveis, mesa lateral, água/café, copos, lixeira com pedal, carregadores, tomadas, Wi-Fi, climatização, persiana, apoio para bolsas e guarda-chuva.
+- [x] Especificar iluminação acolhedora, controle acústico, música ambiente, aromatização opcional e sinalização sem comprometer biossegurança ou acessibilidade.
+- [x] Posicionar os itens de conforto e infraestrutura na planta da recepção com legenda, preservando giro de 1,50 m, circulação livre e trecho acessível do balcão.
+- [x] Redigir POP mestre de biossegurança com abertura, preparação da sala, higienização das mãos, EPIs, limpeza entre atendimentos, resíduos, estoque e fechamento diário.
+- [x] Criar oito placas A4 prontas para impressão sobre higienização das mãos, preparação da sala, limpeza entre clientes, perfurocortantes, resíduos, processamento, cadeia fria e fechamento diário.
+- [x] Aplicar a identidade visual Clínica Lumina Skin Intelligence às placas, com boa legibilidade, versão colorida e margem para assinatura do responsável técnico.
+- [x] Identificar em cada placa o local recomendado de instalação e a rotina correspondente.
+- [x] Manter procedimentos invasivos, esterilização, cadeia fria e emergência bloqueados por regra de servidor até validação profissional e sanitária.
+- [x] Criar matriz de insumos por procedimento não invasivo, ligando procedimento, item, unidade, consumo por sessão, quantidade inicial, estoque mínimo, validade, marca e fornecedor.
+- [x] Criar matriz de cadeia fria para os produtos termossensíveis selecionados nesta fase — Botox, Nabota e Xeomin — com faixa por bula, recebimento, quarentena, lote/validade, liberação, contingência e descarte por desvio.
+- [x] Exigir validação de armazenamento, registro e treinamento antes de concluir, contratar, pagar ou colocar em uso novos itens regulados.
+- [x] Integrar a matriz de insumos por procedimento ao catálogo mestre por identificador único para permitir cálculo futuro de custo por atendimento sem duplicar produtos.
+- [x] Criar orçamento linha a linha com quantidade, unidade, preço mínimo, recomendado e teto para obra, instalações, área externa, mobiliário, equipamentos, insumos, documentos, cursos e capital de giro.
+- [x] Aplicar contingência explícita por categoria e cenário, mostrando o valor da folga separadamente do custo-base.
+- [x] Calcular subtotais por categoria, total de implantação, total com contingência e total com capital de giro.
+- [x] Excluir alternativas de equipamentos do somatório automático e selecionar apenas uma opção por tecnologia em cada cenário.
+- [x] Criar cenários Essencial, Recomendado e Premium, destacando o cenário recomendado como orçamento-base com folga.
+- [x] Calcular a meta mensal de reserva até maio de 2027 e indicar compras que devem ser adiadas por validade, garantia ou risco de imobilização.
+- [x] Gerar planilha detalhada do orçamento e manter previsto, cotado, contratado e pago editáveis no painel.
+- [x] Criar prancha de implantação do módulo 6 × 10 m no terreno-base, com acesso, área externa, orientação solar hipotética, níveis e interfaces a confirmar.
+- [x] Criar dois cortes arquitetônicos cotados mostrando pé-direito, forro, cobertura, níveis, bancadas, portas, sanitário acessível e instalações principais.
+- [x] Criar fachadas frontal, posterior e laterais com materiais, esquadrias, iluminação e sinalização Clínica Lumina Skin Intelligence.
+- [x] Criar quadro completo de portas e janelas com códigos, dimensões, materiais, peitoris e observações de acessibilidade.
+- [x] Criar detalhes construtivos conceituais da bancada clínica, cuba, rodapé, sanitário acessível, dreno externo e encontro da grama sintética, com detalhamento executivo condicionado aos produtos escolhidos.
+- [x] Criar planta específica de pontos e reservas para os equipamentos selecionados, com circuitos, dados, drenos e cargas a confirmar pelos fabricantes.
+- [x] Criar maquete eletrônica 3D axonométrica do conjunto interno e da área externa, coerente com a planta de 60 m².
+- [x] Representar fachada e acesso por imagem conceitual e prancha técnica validada.
+- [x] Representar recepção/espera por imagem conceitual fotorrealista com quatro lugares e balcão acessível.
+- [x] Representar sala principal de procedimentos por planta, corte, pontos de equipamentos e maquete validada.
+- [x] Representar avaliação/administração por planta, circulação e maquete validada.
+- [x] Representar área técnica/estoque/processamento condicional por planta, instalações e maquete validada.
+- [x] Representar sanitário acessível por planta específica, corte, detalhe e maquete validada.
+- [x] Representar circulação e integração por imagem conceitual fotorrealista.
+- [x] Representar área externa por imagem conceitual fotorrealista e prancha de drenagem.
+- [x] Completar a A-01 com legenda/localização de conforto e infraestrutura da recepção.
+- [x] Completar a I-01 com cotas altimétricas indicativas e diagrama explícito de orientação solar hipotética.
+- [x] Revisar a A-05 para representar e identificar bancadas, portas, sanitário acessível e instalações principais nos cortes.
+- [x] Completar a E-02 com circuito, dados, dreno e reserva de potência por equipamento selecionado.
+- [x] Definir programa compacto de 45 m² em módulo 5,00 × 9,00 m, preservando recepção, sala principal, avaliação/administração flexível, sanitário acessível, apoio técnico/estoque e circulação segura.
+- [x] Criar planta baixa cotada e mobiliada da alternativa compacta de 45 m².
+- [x] Criar planta de fluxos, acessibilidade, instalações e pontos de equipamentos da alternativa compacta.
+- [x] Criar cortes, fachada, quadro de esquadrias e implantação-base da alternativa compacta.
+- [x] Criar maquete eletrônica axonométrica da alternativa compacta de 45 m².
+- [x] Representar todos os ambientes da alternativa compacta em plantas, cortes, fachadas e maquete, reutilizando a atmosfera visual validada para economizar recursos.
+- [x] Criar orçamento comparativo entre 60 m² e 45 m² com economia absoluta, percentual, perdas funcionais, capacidade e possibilidade de expansão.
+- [x] Permitir comparar no painel as alternativas de 60 m² e 45 m² e abrir seus conjuntos completos de plantas.
+- [x] Consolidar a alternativa compacta de 45 m² em nível comparativo essencial, reutilizando materiais, especificações e identidade da opção de 60 m².
+- [x] Priorizar o painel funcional, orçamento, catálogo, documentos, pranchas e imagens já produzidas, sem novas gerações visuais desnecessárias.
+- [x] Agrupar edições, testes e exportações restantes em lotes para reduzir operações.
+- [x] Organizar as imagens e pranchas principais na biblioteca do painel.
+- [x] Redistribuir projetos, aprovações, obra, instalações, mobiliário, equipamentos, estoque, validações e abertura ao longo dos 18 meses.
+- [x] Atualizar os marcos editáveis do painel para maio de 2027 a outubro de 2028.
+- [x] Atualizar o dossiê, a planilha financeira e o pacote final com o cronograma de 18 meses.
+- [x] Renomear o projeto técnico, pacote, README e metadados para Clínica Lumina Skin Intelligence.
+- [x] Mapear e remover dependências de autenticação, banco, arquivos, notificações, agendamentos e ativos vinculadas à Manus.
+- [x] Implementar autenticação portátil com allowlist explícita de administradores, sem dados de pacientes no repositório.
+- [x] Migrar persistência para PostgreSQL compatível com provedores externos e documentar DATABASE_URL.
+- [x] Implementar armazenamento S3 compatível para anexos com credenciais exclusivamente por variáveis de ambiente.
+- [x] Substituir URLs de mídia proprietárias por ativos versionados ou armazenamento externo configurável.
+- [x] Implementar alertas por cron externo autenticado, sem depender de serviços da Manus.
+- [x] Criar exportação e importação seguras dos 37 itens atuais por seed auditável, sem credenciais ou dados pessoais.
+- [x] Criar `.env.example`, documentação de instalação local, migração, backup e implantação externa.
+- [x] Remover scripts, metadados e dependências proprietárias que não sejam necessários à versão independente.
+- [x] Criar testes para usuário anônimo, usuário autenticado não autorizado e administrador autorizado.
+- [x] Executar auditoria de segredos e garantir que nenhum token, cookie, CPF ou dado de paciente seja versionado.
+- [x] Executar check, 8 testes, build e teste local real com PostgreSQL usando somente configuração portátil.
+- [x] Criar repositório GitHub privado com nome `clinica-lumina-skin-intelligence` e enviar o código validado.
+- [x] Documentar opções de hospedagem externa e passos manuais de provisionamento, domínio, SSL, backup e cron.

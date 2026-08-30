@@ -1,0 +1,23 @@
+﻿procedimento,item_catalogo,unidade_consumo,consumo_sessao,qtd_inicial,estoque_minimo,validade_referencia,marca_referencia,fornecedor,observacao,catalog_item_id
+Avaliação estética e fotografia padronizada,Preparação alcoólica 70%,mL,5,4000,1000,rótulo,produto regular,distribuidor saúde,Higiene das mãos e superfícies conforme POP; não aplicar automaticamente na pele do cliente.,52
+Avaliação estética e fotografia padronizada,Lenços desidratados c/100,un,1,200,100,rótulo,Santa Clara,distribuidor estética,Uso somente quando necessário para higienização aprovada.,66
+Limpeza de pele profissional,Kit profissional de limpeza,sessão,1,50,10,rótulo após abertura,Bioage Bio-Clean System,Bioage Profissional,Rendimento declarado de 50 aplicações; consumo individual deve seguir protocolo e rótulo.,62
+Limpeza de pele profissional,Luvas nitrílicas sem pó,par,1,200,50,rótulo,Supermax/Medix/Descarpack,Dental Cremer/distribuidor,"Trocar quando houver dano, contaminação ou mudança de etapa.",40
+Limpeza de pele profissional,Máscara cirúrgica tripla,un,1,200,50,rótulo,Descarpack/SSPlus,distribuidor saúde,Uso conforme avaliação de risco e POP.,41
+Limpeza de pele profissional,Lençol de papel 70 cm × 50 m,m,1.8,200,50,não aplicável,Plumax/Gupe Pel,Magazine Médica,Ajustar ao comprimento real da maca e modo de cobertura.,47
+Limpeza de pele profissional,Algodão hidrófilo,g,15,2000,500,rótulo,Cremer/Apolo,Dental Cremer,Estimativa de planejamento; medir no piloto de 20 atendimentos.,35
+Limpeza de pele profissional,Gaze estéril,un,4,200,50,rótulo,Cremer/Neve,Dental Cremer,Usar apresentação compatível com a etapa aprovada.,36
+Limpeza de pele profissional,Microaplicadores,un,2,200,50,rótulo,FGM/KG,Dental Cremer,Uso único.,38
+Limpeza de pele profissional,Espátulas de madeira,un,2,200,50,rótulo,Theoto/Talge,distribuidor saúde,Uso único.,39
+Alta frequência como etapa complementar,Lençol de papel 70 cm × 50 m,m,1.8,200,50,não aplicável,Plumax/Gupe Pel,Magazine Médica,Reutiliza o estoque da limpeza de pele quando no mesmo atendimento.,47
+Alta frequência como etapa complementar,Gaze estéril,un,2,200,50,rótulo,Cremer/Neve,Dental Cremer,Estimativa; ajustar ao POP e manual do eletrodo.,36
+Peeling ultrassônico,Luvas nitrílicas sem pó,par,1,200,50,rótulo,Supermax/Medix/Descarpack,Dental Cremer/distribuidor,Estoque compartilhado.,40
+Peeling ultrassônico,Lençol de papel 70 cm × 50 m,m,1.8,200,50,não aplicável,Plumax/Gupe Pel,Magazine Médica,Estoque compartilhado.,47
+Peeling ultrassônico,Solução/meio aprovado pelo fabricante,mL,15,500,150,rótulo após abertura,conforme manual Sonopeel,distribuidor autorizado,Não substituir por produto improvisado; validar compatibilidade no manual.,65
+HIFU facial/corporal,Focus Pad Sonofocus c/2,un,1,10,4,rótulo,Ibramed,MedEstec/distribuidor autorizado,Somente no cenário Sonofocus; confirmar consumo real e reutilização permitida no manual.,61
+HIFU facial/corporal,Lençol de papel 70 cm × 50 m,m,1.8,200,50,não aplicável,Plumax/Gupe Pel,Magazine Médica,Estoque compartilhado.,47
+HIFU facial/corporal,Luvas nitrílicas sem pó,par,1,200,50,rótulo,Supermax/Medix/Descarpack,Dental Cremer/distribuidor,Estoque compartilhado.,40
+Radiofrequência,Gel glicerinado para radiofrequência 1 kg,g,25,2000,500,rótulo após abertura,RMC ou equivalente regular,distribuidor estética,Somente se RF for selecionada; confirmar no manual do equipamento.,60
+Radiofrequência,Lençol de papel 70 cm × 50 m,m,1.8,200,50,não aplicável,Plumax/Gupe Pel,Magazine Médica,Estoque compartilhado.,47
+Fotobiomodulação LED/laser,Óculos de proteção,ciclo de desinfecção,1,3,1,integridade,compatível com comprimento de onda,fabricante do equipamento,Item reutilizável; higienizar e inspecionar entre usuários.,46
+Fotobiomodulação LED/laser,Desinfetante de superfície 1 L,mL,10,2000,1000,rótulo após abertura,uso em serviços de saúde,Rioquímica/distribuidor,Aplicação e tempo de contato conforme rótulo e compatibilidade do equipamento.,55

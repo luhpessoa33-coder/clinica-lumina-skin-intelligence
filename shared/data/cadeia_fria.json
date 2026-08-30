@@ -1,0 +1,47 @@
+[
+  {
+    "produto": "Botox — frasco intacto",
+    "registro": "MS 1.9860.0019",
+    "faixa_bula": "freezer a -5 °C ou inferior OU geladeira 2–8 °C",
+    "apos_preparo": "2–8 °C por até 3 dias",
+    "estoque_piloto": "2–4 frascos no total da marca escolhida",
+    "recebimento": "conferir nota, lote, validade, embalagem e evidência térmica",
+    "liberacao": "somente se transporte e temperatura estiverem conformes",
+    "quarentena": "se houver excursão, dano, dúvida de transporte ou rótulo ilegível",
+    "contingencia": "transferir para caixa térmica qualificada com logger; contatar fabricante",
+    "descarte": "grupo químico/PGRSS e regra local; nunca usar após desvio sem autorização escrita",
+    "fonte": "https://www.allerganaesthetics.com.br/marcas/botox",
+    "catalog_item_id": 71,
+    "status_escopo": "REGRA CONFIRMADA POR BULA; REVALIDAR NA COMPRA"
+  },
+  {
+    "produto": "Nabota — frasco intacto",
+    "registro": "confirmar no Bulário/nota fiscal",
+    "faixa_bula": "2–8 °C no frasco original não aberto",
+    "apos_preparo": "2–8 °C por até 24 horas",
+    "estoque_piloto": "2–4 frascos no total da marca escolhida",
+    "recebimento": "conferir nota, lote, validade, embalagem e evidência térmica",
+    "liberacao": "somente se transporte e temperatura estiverem conformes",
+    "quarentena": "se houver excursão, dano, dúvida de transporte ou rótulo ilegível",
+    "contingencia": "transferir para caixa térmica qualificada com logger; contatar fabricante",
+    "descarte": "grupo químico/PGRSS e regra local; nunca usar após desvio sem autorização escrita",
+    "fonte": "https://consultaremedios.com.br/nabota/bula",
+    "catalog_item_id": 71,
+    "status_escopo": "REGRA CONFIRMADA POR BULA; REVALIDAR NA COMPRA"
+  },
+  {
+    "produto": "Xeomin — frasco intacto",
+    "registro": "188020001",
+    "faixa_bula": "15–30 °C",
+    "apos_preparo": "2–8 °C por até 24 horas; bula orienta uso imediato",
+    "estoque_piloto": "2–4 frascos no total da marca escolhida",
+    "recebimento": "conferir nota, lote, validade, embalagem e condição térmica indicada",
+    "liberacao": "somente se transporte e armazenamento estiverem conformes",
+    "quarentena": "se houver excursão, dano, dúvida de transporte ou rótulo ilegível",
+    "contingencia": "manter ambiente monitorado; após preparo, usar caixa 2–8 °C com logger quando necessário",
+    "descarte": "grupo químico/PGRSS e regra local; nunca usar após desvio sem autorização escrita",
+    "fonte": "https://consultaremedios.com.br/xeomin/bula",
+    "catalog_item_id": 71,
+    "status_escopo": "REGRA CONFIRMADA POR BULA; REVALIDAR NA COMPRA"
+  }
+]
