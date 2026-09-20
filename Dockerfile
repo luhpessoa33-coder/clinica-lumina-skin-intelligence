@@ -13,5 +13,6 @@ RUN groupadd --system lumina && useradd --system --gid lumina --create-home lumi
 ENV NODE_ENV=production
 COPY --from=build --chown=lumina:lumina /app/dist ./dist
 COPY --from=build --chown=lumina:lumina /app/node_modules ./node_modules
+COPY --from=build --chown=lumina:lumina /app/drizzle ./drizzle
 USER lumina
 CMD ["node", "dist/index.js"]
