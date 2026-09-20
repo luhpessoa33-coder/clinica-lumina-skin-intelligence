@@ -2,9 +2,9 @@
 
 ## Situação correta do repositório
 
-As migrações PostgreSQL herdadas foram removidas da cópia independente porque são incompatíveis com a arquitetura definida. O diretório de migrações está propositalmente vazio. Isso impede que um comando antigo altere TiDB com DDL de outro banco.
+As migrações PostgreSQL herdadas foram removidas porque são incompatíveis com a arquitetura definida. A primeira migração MySQL/TiDB revisável está em `drizzle/migrations/0000_lowly_arachne.sql`, acompanhada do snapshot e do journal Drizzle. Isso impede que um comando antigo altere TiDB com DDL de outro banco.
 
-> **Regra:** não execute `pnpm db:migrate` enquanto não existir uma migração MySQL/TiDB gerada, revisada e testada em homologação. Banco vazio não é autorização para pular a revisão.
+> **Regra:** não execute `pnpm db:migrate` em produção enquanto a migração MySQL/TiDB não tiver sido revisada e aplicada com sucesso em homologação. Banco vazio não é autorização para pular a revisão.
 
 ## Processo para o primeiro schema
 
@@ -18,13 +18,13 @@ pnpm db:generate
 
 A primeira instalação também gera o lockfile que deve ser revisado e versionado. Depois disso, os ambientes de CI e produção devem usar `pnpm install --frozen-lockfile`. A geração cria DDL MySQL a partir de `drizzle/schema.ts`. Revise o SQL linha por linha. Confirme tabelas clínicas, relacionamentos, índices de CPF fingerprint, atribuição profissional–paciente, fotos, consentimentos, modelos de termo, orçamento e auditoria. Confirme também que não há `serial`, `public.`, `timestamp with time zone`, `jsonb`, `RETURNING` ou outro traço PostgreSQL.
 
-Depois da revisão, emita a migração e aplique-a somente ao banco TiDB vazio de homologação:
+Depois da revisão, aplique a migração já versionada somente ao banco TiDB vazio de homologação:
 
 ```bash
 pnpm db:migrate
 ```
 
-Em seguida, inicie a aplicação e execute o roteiro com dados fictícios. O roteiro inclui login bootstrap, criação de paciente fictício, atribuição de profissional, termo rascunho, aprovação de versão, preview, aceite registrado, avaliação, evolução, foto fictícia, catálogo, orçamento e impressão. O endpoint `/readyz` deve responder HTTP 200 somente após conexão ao banco.
+Em seguida, inicie a aplicação e execute o roteiro com dados fictícios. O roteiro inclui solicitação do link pelo e-mail proprietário, criação de paciente fictício, atribuição de profissional, termo rascunho, aprovação de versão, preview, aceite registrado, avaliação, evolução, foto fictícia, catálogo, orçamento e impressão. O endpoint `/readyz` deve responder HTTP 200 somente após conexão ao banco.
 
 ## Promoção controlada
 

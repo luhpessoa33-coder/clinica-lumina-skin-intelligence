@@ -17,9 +17,9 @@ O orçamento é uma saída comercial separada. Sua impressão não inclui CPF, f
 - Sessões são registradas e revogáveis. O cookie é `HttpOnly` e `SameSite=Strict`.
 - Eventos relevantes geram trilha de auditoria.
 
-## Antes de executar
+## Antes de publicar
 
-Leia [`docs/IMPLEMENTACAO_INDEPENDENTE_V1.md`](docs/IMPLEMENTACAO_INDEPENDENTE_V1.md) e [`docs/OPERACAO_E_MANUTENCAO.md`](docs/OPERACAO_E_MANUTENCAO.md). A titular cria as contas, mantém 2FA e cadastra as variáveis diretamente no Railway. Não inclua `.env`, chaves, URL de banco, dumps, CPF, fotos ou exportações no repositório.
+Leia [`docs/LEIA_PRIMEIRO_DEPLOY_RAILWAY.md`](docs/LEIA_PRIMEIRO_DEPLOY_RAILWAY.md), [`docs/IMPLEMENTACAO_INDEPENDENTE_V1.md`](docs/IMPLEMENTACAO_INDEPENDENTE_V1.md) e [`docs/OPERACAO_E_MANUTENCAO.md`](docs/OPERACAO_E_MANUTENCAO.md). A titular mantém 2FA e cadastra as variáveis diretamente no Railway. Não inclua `.env`, chaves, URL de banco, dumps, CPF, fotos ou exportações no repositório.
 
 O arquivo [`docs/R2_CORS_TEMPLATE.json`](docs/R2_CORS_TEMPLATE.json) deve receber somente os domínios HTTPS aprovados antes de habilitar upload no navegador.
 
@@ -38,4 +38,4 @@ Execute os comandos somente em ambiente controlado e com variáveis configuradas
 
 ## Estado de validação
 
-A sintaxe dos arquivos centrais do backend, schema e interface foi validada. O build completo, a migração e o teste integrado aguardam as contas próprias e a autorização explícita de deploy. Nenhuma credencial, dado clínico, DNS ou produção foi alterado nesta entrega.
+O TypeScript e o build de produção foram validados localmente. A migração MySQL/TiDB foi gerada, mas a aplicação dela, o teste integrado com contas próprias, a entrada de dados reais e o DNS aguardam o roteiro controlado. Nenhuma credencial, dado clínico ou segredo pertence ao repositório.

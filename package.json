@@ -12,7 +12,6 @@
     "test": "vitest run",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "password:hash": "tsx scripts/hash-password.ts",
     "verify:config": "tsx scripts/verify-config.ts"
   },
   "dependencies": {

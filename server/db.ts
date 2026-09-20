@@ -144,18 +144,6 @@ export async function setApplicationSetting(settingKey: string, value: unknown, 
   await db.insert(applicationSettings).values({ settingKey, value, updatedById }).onDuplicateKeyUpdate({ set: { value, updatedById } });
 }
 
-export async function upsertBootstrapAdmin(data: Pick<User, "email" | "name" | "passwordHash">) {
-  const db = requiredDb();
-  const now = new Date();
-  await db.insert(users).values({
-    email: data.email.trim().toLowerCase(), name: data.name, passwordHash: data.passwordHash,
-    role: "super_admin", isActive: 1, lastSignedIn: now,
-  }).onDuplicateKeyUpdate({
-    set: { name: data.name, passwordHash: data.passwordHash, role: "super_admin", isActive: 1, lastSignedIn: now },
-  });
-  return getUserByEmail(data.email);
-}
-
 export async function createSessionRecord(userId: number, expiresAt: Date) {
   const db = requiredDb();
   const id = randomUUID().replace(/-/g, "");

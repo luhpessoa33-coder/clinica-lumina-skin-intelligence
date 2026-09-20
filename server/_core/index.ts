@@ -70,7 +70,7 @@ async function startServer() {
       return res.status(503).json({ ok: false, reason: "database" });
     }
   });
-  app.use("/api/trpc/auth.login", loginRateLimit);
+  app.use("/api/trpc/administration.access.requestLink", loginRateLimit);
   app.use("/api/trpc", createExpressMiddleware({ router: appRouter, createContext }));
 
   if (process.env.NODE_ENV === "development") await setupVite(app, server);

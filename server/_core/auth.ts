@@ -1,4 +1,3 @@
-import { randomBytes, scryptSync, timingSafeEqual } from "node:crypto";
 import { SignJWT, jwtVerify } from "jose";
 import type { Request } from "express";
 import type { User } from "../../drizzle/schema";
@@ -18,19 +17,6 @@ function cookieToken(req: Request) {
   if (!cookie) return null;
   try { return decodeURIComponent(cookie.slice(COOKIE_NAME.length + 1)); }
   catch { return null; }
-}
-
-export function hashPassword(password: string) {
-  const salt = randomBytes(16).toString("hex");
-  return `scrypt$${salt}$${scryptSync(password, salt, 64).toString("hex")}`;
-}
-
-export function verifyPassword(password: string, stored: string) {
-  const [algorithm, salt, expectedHex] = stored.split("$");
-  if (algorithm !== "scrypt" || !salt || !expectedHex) return false;
-  const actual = scryptSync(password, salt, 64);
-  const expected = Buffer.from(expectedHex, "hex");
-  return actual.length === expected.length && timingSafeEqual(actual, expected);
 }
 
 export async function createSession(user: User) {

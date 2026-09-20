@@ -4,6 +4,8 @@
 **Estado:** fonte preparada e sem dados reais, sem credenciais, sem publicação
 **Arquitetura aprovada:** Railway + TiDB Cloud com dialeto MySQL + Cloudflare R2 privado
 
+> **Roteiro operacional vigente:** consulte primeiro [`LEIA_PRIMEIRO_DEPLOY_RAILWAY.md`](LEIA_PRIMEIRO_DEPLOY_RAILWAY.md). Ele substitui instruções legadas de Firebase, PostgreSQL e senha bootstrap.
+
 ## Resultado desta fase
 
 Esta versão separa a operação clínica do ambiente Manus e organiza a base para um prontuário que registre **nome completo, CPF, avaliações, evolução, consentimentos, fotos privadas, produtos, procedimentos e orçamento comercial**. O repositório-fonte foi localizado como `luhpessoa33-coder/clinica-lumina-skin-intelligence`; a cópia de trabalho independente foi criada em diretório separado para não alterar o repositório encontrado.
@@ -43,7 +45,7 @@ No **Cloudflare R2**, crie um bucket dedicado e privado, sem domínio customizad
 
 Depois de obter a URL Railway de teste, configure o CORS do bucket a partir de [`R2_CORS_TEMPLATE.json`](R2_CORS_TEMPLATE.json). Substitua os dois placeholders por origens HTTPS específicas; não use curinga. O upload assinado exige `content-type` e `x-amz-checksum-sha256`. A API S3 do R2 documenta suporte aos tipos de checksum, e o código assina e confere SHA-256 para reduzir o risco de registrar um arquivo diferente do autorizado. [7]
 
-No **Railway**, crie um serviço a partir do repositório que receberá este código. O `Dockerfile` já declara a porta 3000 e a configuração `railway.json` usa o endpoint `/healthz`. O Railway injeta `PORT`; o serviço deve escutá-la e responder 2xx ao healthcheck antes de receber tráfego. [5] [6]
+No **Railway**, crie um serviço a partir da branch `clinica-independente-v1`. O `Dockerfile` já declara a porta 3000 e a configuração `railway.json` usa o endpoint `/readyz`. O Railway injeta `PORT`; o serviço deve escutá-la e responder 2xx ao healthcheck somente após a configuração e o banco estarem prontos. [5] [6]
 
 ## Variáveis de ambiente por nome
 
@@ -56,9 +58,11 @@ Cadastre estes nomes no painel privado do Railway. **Não cole os valores em con
 | `DATABASE_SSL_REJECT_UNAUTHORIZED` | Validação do certificado TLS | Serviço Railway |
 | `JWT_SECRET` | Assinatura dos tokens de sessão | Serviço Railway |
 | `DATA_ENCRYPTION_KEY` | Chave base64 de 32 bytes para cifrar CPF e contato | Serviço Railway; cofre da titular |
-| `BOOTSTRAP_ADMIN_EMAIL` | E-mail do primeiro acesso SUPER ADM | Serviço Railway |
+| `OWNER_EMAIL` | E-mail único autorizado ao primeiro acesso SUPER ADM | Serviço Railway |
 | `BOOTSTRAP_ADMIN_NAME` | Nome exibido da SUPER ADM | Serviço Railway |
-| `BOOTSTRAP_ADMIN_PASSWORD_HASH` | Hash scrypt da senha inicial, nunca a senha em texto | Serviço Railway |
+| `APP_BASE_URL` | URL HTTPS temporária Railway ou domínio aprovado | Serviço Railway |
+| `RESEND_API_KEY` | Segredo do envio do link por e-mail | Serviço Railway; cofre da titular |
+| `AUTH_EMAIL_FROM` | Remetente verificado no Resend | Serviço Railway |
 | `S3_ENDPOINT` | Endpoint da conta R2 no formato S3 | Serviço Railway |
 | `S3_REGION` | Região compatível do R2; normalmente `auto` | Serviço Railway |
 | `S3_BUCKET` | Nome do bucket clínico privado | Serviço Railway |
@@ -73,7 +77,7 @@ Cadastre estes nomes no painel privado do Railway. **Não cole os valores em con
 1. Crie o banco e bucket em contas próprias. Não importe nenhum dado antes de testar o ambiente vazio.
 2. Coloque os valores exclusivamente no painel privado de variáveis do Railway. O primeiro teste deve ocorrer com dados fictícios, não clínicos.
 3. Rode a geração e aplicação de migrações Drizzle apontando para o TiDB da titular. Revise o SQL gerado antes de aplicá-lo. Como o projeto usa dialeto MySQL, a migração deve ser tratada como DDL versionado e testada primeiro em ambiente sem dados.
-4. Faça o primeiro deploy para uma URL temporária Railway. Confirme `GET /healthz` com HTTP 200 e faça login com a credencial bootstrap configurada localmente.
+4. Faça o primeiro deploy para uma URL temporária Railway. Configure essa URL como `APP_BASE_URL`, confirme `GET /readyz` com HTTP 200 e solicite o primeiro link de acesso pelo `OWNER_EMAIL` configurado diretamente no Railway.
 5. Teste com dados fictícios: criar paciente, registrar consentimento, registrar avaliação, adicionar evolução, enviar uma imagem fictícia, criar orçamento e salvar como PDF. Verifique que a impressão não contém dados internos.
 6. Só após validação funcional e revisão de privacidade, migre dados existentes por procedimento local e controlado. Dumps, fotos, CPF, URLs, chaves e dados clínicos não circulam por chat, Git nem arquivos públicos.
 7. Aponte domínio ou DNS apenas com autorização escrita específica. Esta entrega não altera domínio, Firebase, DNS ou ambiente de produção.
@@ -90,11 +94,11 @@ A implantação deve rejeitar versões que não respondam ao healthcheck. O Rail
 
 A base técnica não substitui revisão jurídica, de LGPD e de escopo profissional. Antes de guardar dados reais, a titular deve aprovar a finalidade, base legal, versão dos termos, retenção, descarte, exportação, correção de dados, política de resposta a incidente, cópias de segurança e teste de restauração. A assinatura de termo e os dados de profissional responsável devem ser definidos pela titular; não foram inventados pelo código.
 
-A implementação contém a trilha de auditoria de eventos relevantes, mas ainda requer uma tela de consulta e exportação da auditoria, fluxo de criação/desativação de profissionais pela SUPER ADM, recuperação de senha com canal aprovado, e testes integrados com uma conta TiDB e R2 da titular. Esses passos dependem das contas próprias e da autorização de implantação.
+A implementação contém a trilha de auditoria de eventos relevantes, mas ainda requer uma tela de consulta e exportação da auditoria, fluxo de criação/desativação de profissionais pela SUPER ADM, e testes integrados com uma conta TiDB e R2 da titular. O acesso foi definido exclusivamente por link de uso único enviado por e-mail, sem senha bootstrap. Esses passos dependem das contas próprias e da autorização de implantação.
 
 ## Evidência de validação desta fase
 
-A sintaxe de doze arquivos centrais foi validada com esbuild: schema TiDB, autenticação, controle de acesso, servidor, banco, criptografia, armazenamento, roteador, rotas clínicas e interface. A validação de tipos, a migração Drizzle e o teste de integração não foram executados porque o ambiente de trabalho não possui dependências instaláveis fora do projeto WebDev e não recebeu credenciais — condição deliberada de segurança. O `Dockerfile` está preparado para instalar as dependências no build isolado do Railway, mas nenhum build ou deploy foi disparado nesta fase.
+A validação TypeScript e o build de produção foram executados sem erros. A migração MySQL/TiDB foi gerada no repositório e aguarda revisão final e aplicação controlada em TiDB vazio. O teste integrado continua pendente porque não usa e não recebe credenciais fora dos painéis privados. O `Dockerfile` está preparado para o build isolado do Railway.
 
 ## Referências
 
