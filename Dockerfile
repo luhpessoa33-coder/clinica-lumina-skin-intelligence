@@ -1,11 +1,11 @@
 FROM node:22.13.0-slim AS build
 WORKDIR /app
-RUN corepack enable
+RUN npm install --global pnpm@10.4.1
 COPY package.json ./
 # O lockfile deve ser gerado e revisado antes do primeiro deploy produtivo.
-RUN corepack pnpm install --no-frozen-lockfile
+RUN pnpm install --no-frozen-lockfile
 COPY . .
-RUN corepack pnpm run build && corepack pnpm prune --prod
+RUN pnpm run build && pnpm prune --prod
 
 FROM node:22.13.0-slim AS runtime
 WORKDIR /app
