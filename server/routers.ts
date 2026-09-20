@@ -1,42 +1,48 @@
 import { COOKIE_NAME } from "@shared/const";
 import { TRPCError } from "@trpc/server";
 import { z } from "zod";
-import { createSession, sessionCookie, verifyPassword } from "./_core/auth";
+import { createSession, revokeRequestSession, sessionCookie, verifyPassword } from "./_core/auth";
 import { ENV } from "./_core/env";
-import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, router } from "./_core/trpc";
-import { plannerRouter } from "./routers/planner";
-import { upsertAdmin } from "./db";
+import { audit, getUserByEmail, upsertBootstrapAdmin } from "./db";
+import { clinicalRouter } from "./routers/clinical";
+import { administrationRouter } from "./routers/admin";
+import { fingerprintIp } from "./security";
+
+function requestFingerprint(headers: Record<string, string | string[] | undefined>) {
+  const forwarded = headers["x-forwarded-for"];
+  const ip = Array.isArray(forwarded) ? forwarded[0] : forwarded?.split(",")[0]?.trim();
+  return fingerprintIp(ip);
+}
 
 export const appRouter = router({
-    // if you need to use socket.io, read and register route in server/_core/index.ts, all api should start with '/api/' so that the gateway can route correctly
-  system: systemRouter,
+  system: router({ health: publicProcedure.query(() => ({ ok: true, service: "lumina-clinica-independente" })) }),
   auth: router({
-    me: publicProcedure.query(opts => opts.ctx.user),
+    me: publicProcedure.query(({ ctx }) => ctx.user ? { id: ctx.user.id, email: ctx.user.email, name: ctx.user.name, role: ctx.user.role } : null),
     login: publicProcedure.input(z.object({ email: z.string().email(), password: z.string().min(12).max(200) })).mutation(async ({ ctx, input }) => {
       const email = input.email.trim().toLowerCase();
-      const allowed = ENV.adminAllowlist.includes(email) && email === ENV.adminEmail;
-      if (!allowed || !ENV.adminPasswordHash || !verifyPassword(input.password, ENV.adminPasswordHash)) {
+      let user = await getUserByEmail(email);
+      if (!user && email === ENV.bootstrapAdminEmail && ENV.bootstrapAdminPasswordHash && verifyPassword(input.password, ENV.bootstrapAdminPasswordHash)) {
+        user = await upsertBootstrapAdmin({ email, name: ENV.bootstrapAdminName, passwordHash: ENV.bootstrapAdminPasswordHash });
+      }
+      if (!user || !user.isActive || !user.passwordHash || !verifyPassword(input.password, user.passwordHash)) {
         throw new TRPCError({ code: "UNAUTHORIZED", message: "Credenciais inválidas" });
       }
-      const user = await upsertAdmin({ email, passwordHash: ENV.adminPasswordHash, name: "Administradora Lumina", role: "admin" });
-      if (!user) throw new TRPCError({ code: "INTERNAL_SERVER_ERROR", message: "Não foi possível iniciar a sessão" });
       const token = await createSession(user);
       const secure = ctx.req.secure || ctx.req.headers["x-forwarded-proto"] === "https";
       ctx.res.cookie(COOKIE_NAME, token, sessionCookie(secure));
+      await audit({ actorId: user.id, action: "auth.login", entityType: "user", entityId: String(user.id), ipFingerprint: requestFingerprint(ctx.req.headers) });
       return { id: user.id, email: user.email, name: user.name, role: user.role };
     }),
-    logout: publicProcedure.mutation(({ ctx }) => {
+    logout: publicProcedure.mutation(async ({ ctx }) => {
+      await revokeRequestSession(ctx.req);
       const secure = ctx.req.secure || ctx.req.headers["x-forwarded-proto"] === "https";
       ctx.res.clearCookie(COOKIE_NAME, { ...sessionCookie(secure), maxAge: -1 });
-      return {
-        success: true,
-      } as const;
+      return { success: true } as const;
     }),
   }),
-
-  planner: plannerRouter,
-
+  clinical: clinicalRouter,
+  administration: administrationRouter,
 });
 
 export type AppRouter = typeof appRouter;

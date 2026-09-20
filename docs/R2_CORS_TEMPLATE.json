@@ -1,0 +1,12 @@
+[
+  {
+    "AllowedOrigins": [
+      "https://<DOMINIO-RAILWAY-DA-APLICACAO>",
+      "https://<DOMINIO-PROPRIO-APROVADO>"
+    ],
+    "AllowedMethods": ["GET", "HEAD", "PUT"],
+    "AllowedHeaders": ["content-type", "x-amz-checksum-sha256"],
+    "ExposeHeaders": ["etag", "x-amz-checksum-sha256"],
+    "MaxAgeSeconds": 300
+  }
+]

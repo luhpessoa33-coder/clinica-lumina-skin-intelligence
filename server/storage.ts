@@ -1,48 +1,77 @@
-import { GetObjectCommand, PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
+import { GetObjectCommand, HeadObjectCommand, PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
+import { randomUUID } from "node:crypto";
 import { ENV } from "./_core/env";
 
-function getClient() {
-  if (!ENV.s3Bucket || !ENV.s3AccessKeyId || !ENV.s3SecretAccessKey) {
-    throw new Error("S3 storage is not configured");
+const allowedImageTypes = new Map([
+  ["image/jpeg", "jpg"],
+  ["image/png", "png"],
+  ["image/webp", "webp"],
+]);
+
+function client() {
+  if (!ENV.s3Endpoint || !ENV.s3Bucket || !ENV.s3AccessKeyId || !ENV.s3SecretAccessKey) {
+    throw new Error("Armazenamento R2 não configurado");
   }
   return new S3Client({
     region: ENV.s3Region,
-    endpoint: ENV.s3Endpoint || undefined,
-    forcePathStyle: Boolean(ENV.s3Endpoint),
+    endpoint: ENV.s3Endpoint,
+    forcePathStyle: true,
     credentials: { accessKeyId: ENV.s3AccessKeyId, secretAccessKey: ENV.s3SecretAccessKey },
   });
 }
 
-function normalizeKey(relKey: string): string {
-  return relKey.replace(/^\/+/, "");
+export function assertPhotoUpload(contentType: string, byteSize: number) {
+  if (!allowedImageTypes.has(contentType)) throw new Error("Formato de foto não permitido");
+  if (!Number.isInteger(byteSize) || byteSize <= 0 || byteSize > ENV.uploadMaxBytes) throw new Error("Tamanho de foto inválido");
 }
 
-function appendHashSuffix(relKey: string): string {
-  const hash = crypto.randomUUID().replace(/-/g, "").slice(0, 8);
-  const lastDot = relKey.lastIndexOf(".");
-  if (lastDot === -1) return `${relKey}_${hash}`;
-  return `${relKey.slice(0, lastDot)}_${hash}${relKey.slice(lastDot)}`;
+export function assertSignedDocumentUpload(contentType: string, byteSize: number) {
+  if (contentType !== "application/pdf") throw new Error("O termo digitalizado deve ser enviado em PDF");
+  const maxBytes = Math.min(ENV.uploadMaxBytes, 15_000_000);
+  if (!Number.isInteger(byteSize) || byteSize <= 0 || byteSize > maxBytes) throw new Error("Tamanho de PDF inválido");
 }
 
-export async function storagePut(
-  relKey: string,
-  data: Buffer | Uint8Array | string,
-  contentType = "application/octet-stream",
-): Promise<{ key: string; url: string }> {
-  const key = appendHashSuffix(normalizeKey(relKey));
-  const body = typeof data === "string" ? Buffer.from(data) : Buffer.from(data);
-  await getClient().send(new PutObjectCommand({ Bucket: ENV.s3Bucket, Key: key, Body: body, ContentType: contentType }));
-  const url = ENV.s3PublicBaseUrl ? `${ENV.s3PublicBaseUrl}/${key}` : await storageGetSignedUrl(key);
-  return { key, url };
+function checksumBase64(sha256: string) {
+  if (!/^[a-f0-9]{64}$/i.test(sha256)) throw new Error("Checksum SHA-256 inválido");
+  return Buffer.from(sha256, "hex").toString("base64");
 }
 
-export async function storageGet(relKey: string): Promise<{ key: string; url: string }> {
-  const key = normalizeKey(relKey);
-  return { key, url: await storageGetSignedUrl(key) };
+export async function createPrivatePhotoUpload(patientId: string, contentType: string, byteSize: number, sha256: string) {
+  assertPhotoUpload(contentType, byteSize);
+  const extension = allowedImageTypes.get(contentType)!;
+  const objectKey = `patients/${patientId}/${randomUUID()}.${extension}`;
+  const checksumSha256 = checksumBase64(sha256);
+  const uploadUrl = await getSignedUrl(client(), new PutObjectCommand({
+    Bucket: ENV.s3Bucket,
+    Key: objectKey,
+    ContentType: contentType,
+    ChecksumSHA256: checksumSha256,
+  }), { expiresIn: 300 });
+  return { objectKey, uploadUrl, checksumSha256, expiresInSeconds: 300 };
 }
 
-export async function storageGetSignedUrl(relKey: string, expiresIn = 3600): Promise<string> {
-  const key = normalizeKey(relKey);
-  return getSignedUrl(getClient(), new GetObjectCommand({ Bucket: ENV.s3Bucket, Key: key }), { expiresIn });
+export async function createPrivateSignedDocumentUpload(patientId: string, contentType: string, byteSize: number, sha256: string) {
+  assertSignedDocumentUpload(contentType, byteSize);
+  const objectKey = `patients/${patientId}/documents/${randomUUID()}.pdf`;
+  const checksumSha256 = checksumBase64(sha256);
+  const uploadUrl = await getSignedUrl(client(), new PutObjectCommand({ Bucket: ENV.s3Bucket, Key: objectKey, ContentType: contentType, ChecksumSHA256: checksumSha256 }), { expiresIn: 300 });
+  return { objectKey, uploadUrl, checksumSha256, expiresInSeconds: 300 };
+}
+
+export async function getPrivatePhotoUrl(objectKey: string) {
+  if (!objectKey.startsWith("patients/")) throw new Error("Chave de foto inválida");
+  return getSignedUrl(client(), new GetObjectCommand({ Bucket: ENV.s3Bucket, Key: objectKey }), { expiresIn: 300 });
+}
+
+export async function headPrivatePhoto(objectKey: string) {
+  if (!objectKey.startsWith("patients/")) throw new Error("Chave de foto inválida");
+  const response = await client().send(new HeadObjectCommand({ Bucket: ENV.s3Bucket, Key: objectKey }));
+  return { contentType: response.ContentType ?? "", byteSize: response.ContentLength ?? 0, checksumSha256: response.ChecksumSHA256 ?? "" };
+}
+
+export async function headPrivateDocument(objectKey: string) {
+  if (!objectKey.startsWith("patients/") || !objectKey.includes("/documents/")) throw new Error("Chave de documento inválida");
+  const response = await client().send(new HeadObjectCommand({ Bucket: ENV.s3Bucket, Key: objectKey }));
+  return { contentType: response.ContentType ?? "", byteSize: response.ContentLength ?? 0, checksumSha256: response.ChecksumSHA256 ?? "" };
 }

@@ -1,10 +1,38 @@
 {
-  "include": ["client/src/**/*", "shared/**/*", "server/**/*"],
+  "include": [
+    "client/src/App.tsx",
+    "client/src/main.tsx",
+    "client/src/pages/ClinicalRecords.tsx",
+    "client/src/components/ClinicalAdministration.tsx",
+    "client/src/components/ErrorBoundary.tsx",
+    "client/src/components/ui/sonner.tsx",
+    "client/src/lib/trpc.ts",
+    "client/src/lib/utils.ts",
+    "server/_core/auth.ts",
+    "server/_core/context.ts",
+    "server/_core/env.ts",
+    "server/_core/index.ts",
+    "server/_core/trpc.ts",
+    "server/_core/vite.ts",
+    "server/ai.ts",
+    "server/db.ts",
+    "server/email.ts",
+    "server/routers.ts",
+    "server/routers/admin.ts",
+    "server/routers/clinical.ts",
+    "server/security.ts",
+    "server/storage.ts",
+    "shared/const.ts",
+    "drizzle/schema.ts",
+    "vite.config.ts"
+  ],
   "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
   "compilerOptions": {
     "incremental": true,
     "tsBuildInfoFile": "./node_modules/typescript/tsbuildinfo",
     "noEmit": true,
+    "target": "ES2022",
+    "downlevelIteration": true,
     "module": "ESNext",
     "strict": true,
     "lib": ["esnext", "dom", "dom.iterable"],
@@ -16,9 +44,6 @@
     "moduleResolution": "bundler",
     "baseUrl": ".",
     "types": ["node", "vite/client"],
-    "paths": {
-      "@/*": ["./client/src/*"],
-      "@shared/*": ["./shared/*"]
-    }
+    "paths": { "@/*": ["./client/src/*"], "@shared/*": ["./shared/*"] }
   }
 }
