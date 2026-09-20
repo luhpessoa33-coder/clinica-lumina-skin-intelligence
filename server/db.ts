@@ -1,7 +1,9 @@
 import { and, desc, eq, gt, gte, inArray, isNull, like, lt, sql } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
+import { migrate } from "drizzle-orm/mysql2/migrator";
 import mysql from "mysql2/promise";
 import { randomUUID } from "node:crypto";
+import path from "node:path";
 import {
   applicationSettings,
   appointments,
@@ -49,6 +51,12 @@ export async function probeDatabase() {
   if (!db) return false;
   await db.execute(sql`SELECT 1`);
   return true;
+}
+
+/** Aplica somente migrações Drizzle ainda ausentes; o journal do banco impede repetição. */
+export async function migrateClinicalSchema() {
+  const db = requiredDb();
+  await migrate(db, { migrationsFolder: path.resolve(process.cwd(), "drizzle/migrations") });
 }
 
 function requiredDb() {

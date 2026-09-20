@@ -4,7 +4,7 @@ import { createServer } from "http";
 import net from "net";
 import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import { appRouter } from "../routers";
-import { probeDatabase } from "../db";
+import { migrateClinicalSchema, probeDatabase } from "../db";
 import { runtimeConfigurationIssues } from "../runtime";
 import { createContext } from "./context";
 import { ENV } from "./env";
@@ -40,6 +40,15 @@ async function startServer() {
   const server = createServer(app);
   const startupIssues = runtimeConfigurationIssues();
   if (startupIssues.length) console.error(`Configuração não está pronta: ${startupIssues.join(", ")}`);
+  if (!startupIssues.length) {
+    try {
+      await migrateClinicalSchema();
+      console.log("Migrações clínicas verificadas com sucesso");
+    } catch (error) {
+      console.error("Não foi possível aplicar as migrações clínicas", error);
+      process.exit(1);
+    }
+  }
   let storageOrigin = "";
   try { storageOrigin = new URL(ENV.s3Endpoint).origin; } catch { /* readiness handles invalid configuration */ }
   app.set("trust proxy", 1);
