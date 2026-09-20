@@ -8,7 +8,7 @@ import { probeDatabase } from "../db";
 import { runtimeConfigurationIssues } from "../runtime";
 import { createContext } from "./context";
 import { ENV } from "./env";
-import { serveStatic, setupVite } from "./vite";
+import { serveStatic } from "./static";
 
 const loginAttempts = new Map<string, { count: number; resetAt: number }>();
 
@@ -73,8 +73,14 @@ async function startServer() {
   app.use("/api/trpc/administration.access.requestLink", loginRateLimit);
   app.use("/api/trpc", createExpressMiddleware({ router: appRouter, createContext }));
 
-  if (process.env.NODE_ENV === "development") await setupVite(app, server);
-  else serveStatic(app);
+  if (process.env.NODE_ENV === "development") {
+    // Keep the development server outside of the production bundle.
+    const viteModulePath = "./vite";
+    const { setupVite } = await import(viteModulePath);
+    await setupVite(app, server);
+  } else {
+    serveStatic(app);
+  }
 
   const preferred = Number.parseInt(process.env.PORT || "3000", 10);
   const port = process.env.NODE_ENV === "production" ? preferred : await findAvailablePort(preferred);
