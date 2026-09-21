@@ -35,12 +35,20 @@ function findAvailablePort(startPort: number) {
   });
 }
 
+function migrationErrorCodes(error: unknown, visited = new Set<unknown>()): string[] {
+  if (!error || typeof error !== "object" || visited.has(error)) return [];
+  visited.add(error);
+  const record = error as { code?: unknown; cause?: unknown };
+  const code = record.code ? [String(record.code)] : [];
+  return [...code, ...migrationErrorCodes(record.cause, visited)];
+}
+
 function classifyMigrationError(error: unknown) {
-  const code = typeof error === "object" && error && "code" in error ? String(error.code) : "";
-  if (["ER_ACCESS_DENIED_ERROR", "ER_DBACCESS_DENIED_ERROR"].includes(code)) return "database_authentication";
-  if (["ER_BAD_DB_ERROR", "ER_NO_DB_ERROR"].includes(code)) return "database_target";
-  if (["ECONNREFUSED", "ETIMEDOUT", "ENOTFOUND", "ECONNRESET"].includes(code)) return "database_connectivity";
-  if (code.startsWith("ER_") || code.startsWith("HY")) return "migration_schema";
+  const codes = migrationErrorCodes(error);
+  if (codes.some((code) => ["ER_ACCESS_DENIED_ERROR", "ER_DBACCESS_DENIED_ERROR"].includes(code))) return "database_authentication";
+  if (codes.some((code) => ["ER_BAD_DB_ERROR", "ER_NO_DB_ERROR"].includes(code))) return "database_target";
+  if (codes.some((code) => ["ECONNREFUSED", "ETIMEDOUT", "ENOTFOUND", "ECONNRESET"].includes(code))) return "database_connectivity";
+  if (codes.some((code) => code.startsWith("ER_") || code.startsWith("HY"))) return "migration_schema";
   return "migration_unknown";
 }
 
