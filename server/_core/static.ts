@@ -10,6 +10,8 @@ export function serveStatic(app: Express) {
     console.error("Diretório público não encontrado: execute o build antes de iniciar o servidor.");
   }
 
+  // O portal público nunca deve servir documentos de planejamento ou anexos internos.
+  app.use("/assets/docs", (_req, res) => res.status(404).end());
   app.use(express.static(distPath));
   app.use("*", (_req, res) => {
     res.sendFile(path.resolve(distPath, "index.html"));

@@ -25,6 +25,7 @@ import {
 import { isEmailDeliveryConfigured, sendMagicLinkEmail } from "../email";
 import { fingerprintIp, fingerprintOneTimeToken } from "../security";
 import { geminiRuntimeStatus, testGeminiConnection } from "../ai";
+import { PUBLIC_SITE_SETTING_KEY, publicSiteContentOrDefault, publicSiteContentSchema } from "../publicSite";
 
 const emailSchema = z.string().trim().email().max(320).transform((value) => value.toLowerCase());
 const roleSchema = z.enum(["admin", "professional"]);
@@ -106,6 +107,12 @@ export const administrationRouter = router({
   }),
   settings: router({
     secretStatus: superAdminProcedure.query(async () => ({ emailDeliveryConfigured: isEmailDeliveryConfigured(), appBaseUrlConfigured: Boolean(ENV.appBaseUrl), gemini: geminiRuntimeStatus() })),
+    publicSite: superAdminProcedure.query(async () => publicSiteContentOrDefault(await getApplicationSetting(PUBLIC_SITE_SETTING_KEY))),
+    savePublicSite: superAdminProcedure.input(publicSiteContentSchema).mutation(async ({ input, ctx }) => {
+      await setApplicationSetting(PUBLIC_SITE_SETTING_KEY, input, ctx.user.id);
+      await audit({ actorId: ctx.user.id, action: "public_site.content.save", entityType: "application_setting", entityId: PUBLIC_SITE_SETTING_KEY, metadata: { services: input.services.length, products: input.products.length }, ipFingerprint: requestFingerprint(ctx.req.headers) });
+      return publicSiteContentOrDefault(input);
+    }),
     aiStatus: superAdminProcedure.query(async () => ({ ...geminiRuntimeStatus(), enabled: Boolean((await getApplicationSetting<{ enabled?: boolean }>("gemini"))?.enabled) })),
     setAiEnabled: superAdminProcedure.input(z.object({ enabled: z.boolean() })).mutation(async ({ input, ctx }) => {
       if (input.enabled && !ENV.geminiApiKey) throw new TRPCError({ code: "PRECONDITION_FAILED", message: "Configure GEMINI_API_KEY no cofre privado antes de ativar" });

@@ -3,9 +3,14 @@ import { revokeRequestSession, sessionCookie } from "./_core/auth";
 import { publicProcedure, router } from "./_core/trpc";
 import { clinicalRouter } from "./routers/clinical";
 import { administrationRouter } from "./routers/admin";
+import { getApplicationSetting } from "./db";
+import { PUBLIC_SITE_SETTING_KEY, publicSiteContentOrDefault } from "./publicSite";
 
 export const appRouter = router({
   system: router({ health: publicProcedure.query(() => ({ ok: true, service: "lumina-clinica-independente" })) }),
+  publicSite: router({
+    content: publicProcedure.query(async () => publicSiteContentOrDefault(await getApplicationSetting(PUBLIC_SITE_SETTING_KEY))),
+  }),
   auth: router({
     me: publicProcedure.query(({ ctx }) => ctx.user ? { id: ctx.user.id, email: ctx.user.email, name: ctx.user.name, role: ctx.user.role } : null),
     logout: publicProcedure.mutation(async ({ ctx }) => {

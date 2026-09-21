@@ -21,7 +21,7 @@ export default function ClinicalRecords() {
   const [accessEmail, setAccessEmail] = useState("luh.pessoa33@gmail.com");
   const [accessTokenHandled, setAccessTokenHandled] = useState(false);
   const requestAccessLink = trpc.administration.access.requestLink.useMutation({ onSuccess: () => toast.success("Se a conta estiver autorizada, o link de acesso foi enviado ao e-mail."), onError: (error) => toast.error(error.message) });
-  const consumeAccessLink = trpc.administration.access.consumeLink.useMutation({ onSuccess: () => { window.history.replaceState({}, "", "/"); auth.refetch(); toast.success("Acesso confirmado"); }, onError: () => toast.error("O link de acesso é inválido, expirou ou já foi usado.") });
+  const consumeAccessLink = trpc.administration.access.consumeLink.useMutation({ onSuccess: () => { window.history.replaceState({}, "", "/portal"); auth.refetch(); toast.success("Acesso confirmado"); }, onError: () => toast.error("O link de acesso é inválido, expirou ou já foi usado.") });
   const [query, setQuery] = useState("");
   const [selectedPatient, setSelectedPatient] = useState<{ id: string; fullName: string } | null>(null);
   const [patientForm, setPatientForm] = useState({ fullName: "", cpf: "", birthDate: "", contact: "" });
@@ -86,7 +86,7 @@ export default function ClinicalRecords() {
       <header className="sticky top-0 z-30 border-b border-[#dfe3dc] bg-[#fbfaf6]/92 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-8">
           <div className="flex items-center gap-3"><div className="grid h-10 w-10 place-items-center rounded-2xl bg-[#183d37] text-[#e7bd7c]"><Stethoscope size={20} /></div><div><p className="font-semibold tracking-tight">LUmina · Prontuário Clínico</p><p className="text-xs text-[#6a7c77]">Ambiente privado · TiDB + R2</p></div></div>
-          <div className="flex items-center gap-3"><span className="hidden text-right text-xs text-[#5f736d] sm:block">{auth.data.name}<br/><b>{auth.data.role === "super_admin" ? "SUPER ADM" : "PROFISSIONAL"}</b></span><button onClick={() => logout.mutate()} className="rounded-xl border border-[#d6ddd8] px-3 py-2 text-sm hover:bg-white">Sair</button></div>
+          <div className="flex items-center gap-3"><a href="/" className="hidden rounded-xl border border-[#d6ddd8] px-3 py-2 text-sm hover:bg-white sm:block">Site público</a><span className="hidden text-right text-xs text-[#5f736d] sm:block">{auth.data.name}<br/><b>{auth.data.role === "super_admin" ? "SUPER ADM" : "PROFISSIONAL"}</b></span><button onClick={() => logout.mutate()} className="rounded-xl border border-[#d6ddd8] px-3 py-2 text-sm hover:bg-white">Sair</button></div>
         </div>
       </header>
 
