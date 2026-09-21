@@ -39,16 +39,8 @@ async function startServer() {
   const app = express();
   const server = createServer(app);
   const startupIssues = runtimeConfigurationIssues();
+  let migrationState: "pending" | "ready" | "failed" | "skipped" = startupIssues.length ? "skipped" : "pending";
   if (startupIssues.length) console.error(`Configuração não está pronta: ${startupIssues.join(", ")}`);
-  if (!startupIssues.length) {
-    try {
-      await migrateClinicalSchema();
-      console.log("Migrações clínicas verificadas com sucesso");
-    } catch (error) {
-      console.error("Não foi possível aplicar as migrações clínicas", error);
-      process.exit(1);
-    }
-  }
   let storageOrigin = "";
   try { storageOrigin = new URL(ENV.s3Endpoint).origin; } catch { /* readiness handles invalid configuration */ }
   app.set("trust proxy", 1);
@@ -72,6 +64,8 @@ async function startServer() {
   app.get("/healthz", (_req, res) => res.status(200).json({ ok: true }));
   app.get("/readyz", async (_req, res) => {
     if (runtimeConfigurationIssues().length) return res.status(503).json({ ok: false, reason: "configuration" });
+    if (migrationState === "pending") return res.status(503).json({ ok: false, reason: "migration_pending" });
+    if (migrationState === "failed") return res.status(503).json({ ok: false, reason: "migration_failed" });
     try {
       await probeDatabase();
       return res.status(200).json({ ok: true });
@@ -93,7 +87,20 @@ async function startServer() {
 
   const preferred = Number.parseInt(process.env.PORT || "3000", 10);
   const port = process.env.NODE_ENV === "production" ? preferred : await findAvailablePort(preferred);
-  server.listen(port, "0.0.0.0", () => console.log(`Servidor LUmina disponível na porta ${port}`));
+  server.listen(port, "0.0.0.0", () => {
+    console.log(`Servidor LUmina disponível na porta ${port}`);
+    if (!startupIssues.length) {
+      void migrateClinicalSchema()
+        .then(() => {
+          migrationState = "ready";
+          console.log("Migrações clínicas verificadas com sucesso");
+        })
+        .catch((error) => {
+          migrationState = "failed";
+          console.error("Não foi possível aplicar as migrações clínicas", error);
+        });
+    }
+  });
 }
 
 startServer().catch((error) => { console.error(error); process.exit(1); });
