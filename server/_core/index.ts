@@ -43,12 +43,29 @@ function migrationErrorCodes(error: unknown, visited = new Set<unknown>()): stri
   return [...code, ...migrationErrorCodes(record.cause, visited)];
 }
 
+function migrationErrorMessages(error: unknown, visited = new Set<unknown>()): string[] {
+  if (!error || typeof error !== "object" || visited.has(error)) return [];
+  visited.add(error);
+  const record = error as { message?: unknown; cause?: unknown };
+  const message = record.message ? [String(record.message).toLowerCase()] : [];
+  return [...message, ...migrationErrorMessages(record.cause, visited)];
+}
+
 function classifyMigrationError(error: unknown) {
   const codes = migrationErrorCodes(error);
+  const messages = migrationErrorMessages(error);
+  const hasMessage = (pattern: RegExp) => messages.some((message) => pattern.test(message));
   if (codes.some((code) => ["ER_ACCESS_DENIED_ERROR", "ER_DBACCESS_DENIED_ERROR"].includes(code))) return "database_authentication";
   if (codes.some((code) => ["ER_BAD_DB_ERROR", "ER_NO_DB_ERROR"].includes(code))) return "database_target";
   if (codes.some((code) => ["ECONNREFUSED", "ETIMEDOUT", "ENOTFOUND", "ECONNRESET"].includes(code))) return "database_connectivity";
   if (codes.some((code) => code.startsWith("ER_") || code.startsWith("HY"))) return "migration_schema";
+  if (hasMessage(/access denied|authentication failed|invalid credentials/)) return "database_authentication";
+  if (hasMessage(/unknown database|no database selected/)) return "database_target";
+  if (hasMessage(/connection|connect timeout|handshake|econnrefused|enotfound/)) return "database_connectivity";
+  if (hasMessage(/already exists|duplicate table/)) return "migration_partial_schema";
+  if (hasMessage(/foreign key constraint|errno: 150/)) return "migration_foreign_key";
+  if (hasMessage(/syntax|parse error|not supported/)) return "migration_sql_compatibility";
+  if (hasMessage(/migrations?.*(not found|missing)|cannot find.*migration/)) return "migration_assets";
   return "migration_unknown";
 }
 
