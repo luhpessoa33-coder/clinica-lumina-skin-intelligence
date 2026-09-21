@@ -35,11 +35,21 @@ function findAvailablePort(startPort: number) {
   });
 }
 
+function classifyMigrationError(error: unknown) {
+  const code = typeof error === "object" && error && "code" in error ? String(error.code) : "";
+  if (["ER_ACCESS_DENIED_ERROR", "ER_DBACCESS_DENIED_ERROR"].includes(code)) return "database_authentication";
+  if (["ER_BAD_DB_ERROR", "ER_NO_DB_ERROR"].includes(code)) return "database_target";
+  if (["ECONNREFUSED", "ETIMEDOUT", "ENOTFOUND", "ECONNRESET"].includes(code)) return "database_connectivity";
+  if (code.startsWith("ER_") || code.startsWith("HY")) return "migration_schema";
+  return "migration_unknown";
+}
+
 async function startServer() {
   const app = express();
   const server = createServer(app);
   const startupIssues = runtimeConfigurationIssues();
   let migrationState: "pending" | "ready" | "failed" | "skipped" = startupIssues.length ? "skipped" : "pending";
+  let migrationFailureReason = "migration_unknown";
   if (startupIssues.length) console.error(`Configuração não está pronta: ${startupIssues.join(", ")}`);
   let storageOrigin = "";
   try { storageOrigin = new URL(ENV.s3Endpoint).origin; } catch { /* readiness handles invalid configuration */ }
@@ -65,7 +75,7 @@ async function startServer() {
   app.get("/readyz", async (_req, res) => {
     if (runtimeConfigurationIssues().length) return res.status(503).json({ ok: false, reason: "configuration" });
     if (migrationState === "pending") return res.status(503).json({ ok: false, reason: "migration_pending" });
-    if (migrationState === "failed") return res.status(503).json({ ok: false, reason: "migration_failed" });
+    if (migrationState === "failed") return res.status(503).json({ ok: false, reason: migrationFailureReason });
     try {
       await probeDatabase();
       return res.status(200).json({ ok: true });
@@ -97,7 +107,8 @@ async function startServer() {
         })
         .catch((error) => {
           migrationState = "failed";
-          console.error("Não foi possível aplicar as migrações clínicas", error);
+          migrationFailureReason = classifyMigrationError(error);
+          console.error("Não foi possível aplicar as migrações clínicas", { reason: migrationFailureReason });
         });
     }
   });
