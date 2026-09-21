@@ -18,10 +18,25 @@ export async function sendMagicLinkEmail(input: { to: string; recipientName: str
   const html = `<main style="font-family:Arial,sans-serif;line-height:1.55;color:#183d37;max-width:560px;margin:auto"><p>Olá, ${name}.</p><p>Use o link único abaixo para acessar a <strong>LUmina Skin Intelligence</strong>. Ele expira em ${input.expiresMinutes} minutos e só pode ser usado uma vez.</p><p><a href="${link}" style="display:inline-block;padding:12px 18px;border-radius:10px;background:#183d37;color:#fff;text-decoration:none">Acessar ambiente protegido</a></p><p style="font-size:12px;color:#657c74">Se você não solicitou este acesso, ignore esta mensagem. Não encaminhe este link.</p></main>`;
   const response = await fetch("https://api.resend.com/emails", {
     method: "POST",
-    headers: { Authorization: `Bearer ${ENV.resendApiKey}`, "Content-Type": "application/json", "Idempotency-Key": `lumina-auth-${randomUUID()}` },
+    headers: {
+      Authorization: `Bearer ${ENV.resendApiKey}`,
+      "Content-Type": "application/json",
+      "Idempotency-Key": `lumina-auth-${randomUUID()}`,
+      "User-Agent": "lumina-clinica/1.0",
+    },
     body: JSON.stringify({ from: ENV.authEmailFrom, to: [input.to], subject, html, text }),
   });
-  if (!response.ok) throw new Error(`O provedor de e-mail recusou o envio (${response.status})`);
+  if (!response.ok) {
+    const body = await response.json().catch(() => null) as { message?: unknown; name?: unknown } | null;
+    const message = typeof body?.message === "string" ? body.message.toLowerCase() : "";
+    if (response.status === 403 && /domain|sender|from/.test(message)) {
+      throw new Error("O remetente de e-mail precisa usar exatamente o domínio verificado no Resend");
+    }
+    if (response.status === 403 && /permission|authorized|api key/.test(message)) {
+      throw new Error("A chave de e-mail não está autorizada para enviar mensagens");
+    }
+    throw new Error(`O provedor de e-mail recusou o envio (${response.status})`);
+  }
   const result = await response.json() as { id?: string };
   return { providerMessageId: result.id ?? null };
 }
