@@ -9,6 +9,7 @@
     "client/src/components/ErrorBoundary.tsx",
     "client/src/components/ui/sonner.tsx",
     "client/src/lib/trpc.ts",
+    "client/src/lib/publicTheme.ts",
     "client/src/lib/utils.ts",
     "server/_core/auth.ts",
     "server/_core/context.ts",

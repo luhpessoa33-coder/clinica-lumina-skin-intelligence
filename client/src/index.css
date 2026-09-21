@@ -44,6 +44,16 @@
 }
 
 :root {
+  --lumina-primary: #183d37;
+  --lumina-secondary: #24574d;
+  --lumina-accent: #e7bd7c;
+  --lumina-background: #f7f4ed;
+  --lumina-surface: #ffffff;
+  --lumina-text: #183d37;
+  --lumina-muted-text: #667b74;
+  --lumina-on-primary: #ffffff;
+  --lumina-on-secondary: #ffffff;
+  --lumina-on-accent: #17201e;
   --primary: oklch(0.33 0.035 170);
   --primary-foreground: oklch(0.985 0.008 88);
   --sidebar-primary: oklch(0.74 0.08 76);
@@ -142,6 +152,51 @@
   .eyebrow { @apply text-[11px] font-bold uppercase tracking-[0.18em] text-[#9b7747]; }
   .metric { font-family: 'Manrope', sans-serif; @apply text-2xl font-semibold tracking-tight text-foreground; }
   .safe-bottom { padding-bottom: max(1rem, env(safe-area-inset-bottom)); }
+
+  /* The protected portal consumes the palette saved by the SUPER ADM. The
+     scope prevents public site styles from leaking into clinical data views. */
+  .lumina-protected {
+    background: var(--lumina-background);
+    color: var(--lumina-text);
+  }
+  .lumina-protected [class*="bg-[#f6f4ee]"],
+  .lumina-protected [class*="bg-[#fbfaf6]"],
+  .lumina-protected [class*="bg-[#f7faf7]"],
+  .lumina-protected [class*="bg-[#fbfcfa]"] {
+    background-color: color-mix(in srgb, var(--lumina-background) 88%, var(--lumina-surface)) !important;
+  }
+  .lumina-protected [class*="bg-white"] {
+    background-color: var(--lumina-surface) !important;
+  }
+  .lumina-protected [class*="bg-[#183d37]"] {
+    background-color: var(--lumina-primary) !important;
+    color: var(--lumina-on-primary) !important;
+  }
+  .lumina-protected [class*="bg-[#b9894d]"],
+  .lumina-protected [class*="bg-[#e7bd7c]"] {
+    background-color: var(--lumina-accent) !important;
+    color: var(--lumina-on-accent) !important;
+  }
+  .lumina-protected [class*="text-[#183d37]"],
+  .lumina-protected [class*="text-[#193b37]"],
+  .lumina-protected [class*="text-[#173e37]"] {
+    color: var(--lumina-text) !important;
+  }
+  .lumina-protected [class*="text-[#657c74]"],
+  .lumina-protected [class*="text-[#71857e]"],
+  .lumina-protected [class*="text-[#687d76]"] {
+    color: var(--lumina-muted-text) !important;
+  }
+  .lumina-protected [class*="text-[#9a7648]"],
+  .lumina-protected [class*="text-[#e7bd7c]"] {
+    color: var(--lumina-accent) !important;
+  }
+  .lumina-protected [class*="border-[#dfe3dc]"],
+  .lumina-protected [class*="border-[#e0e7e1]"],
+  .lumina-protected [class*="border-[#d6ddd8]"],
+  .lumina-protected [class*="border-[#d9e2dc]"] {
+    border-color: color-mix(in srgb, var(--lumina-primary) 16%, transparent) !important;
+  }
   /**
    * Custom container utility that centers content and adds responsive padding.
    *

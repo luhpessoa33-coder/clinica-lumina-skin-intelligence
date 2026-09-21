@@ -1,6 +1,9 @@
 import { Toaster } from "@/components/ui/sonner";
 import ErrorBoundary from "@/components/ErrorBoundary";
+import { trpc } from "@/lib/trpc";
+import { publicThemeStyle } from "@/lib/publicTheme";
 import PublicSite from "@/pages/PublicSite";
+import { clonePublicSiteContent } from "@shared/publicSite";
 import { lazy, Suspense, useEffect, useState } from "react";
 
 const ClinicalRecords = lazy(() => import("@/pages/ClinicalRecords"));
@@ -15,8 +18,14 @@ function useCurrentPath() {
   return path;
 }
 
+function ProtectedPortal() {
+  const publicSite = trpc.publicSite.content.useQuery();
+  const site = publicSite.data ?? clonePublicSiteContent();
+  return <div className="lumina-protected" style={publicThemeStyle(site.theme)}><ClinicalRecords /></div>;
+}
+
 export default function App() {
   const path = useCurrentPath();
   const isProtectedRoute = path === "/portal" || path === "/acesso";
-  return <ErrorBoundary><Toaster richColors position="top-right" /><Suspense fallback={<main className="grid min-h-screen place-items-center bg-[#f7f4ed] text-sm text-[#58716a]">Abrindo ambiente…</main>}>{isProtectedRoute ? <ClinicalRecords /> : <PublicSite />}</Suspense></ErrorBoundary>;
+  return <ErrorBoundary><Toaster richColors position="top-right" /><Suspense fallback={<main className="grid min-h-screen place-items-center bg-[var(--lumina-background)] text-sm text-[var(--lumina-muted-text)]">Abrindo ambiente…</main>}>{isProtectedRoute ? <ProtectedPortal /> : <PublicSite />}</Suspense></ErrorBoundary>;
 }
